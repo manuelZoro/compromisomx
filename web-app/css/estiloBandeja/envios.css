@@ -1,0 +1,138 @@
+@CHARSET "ISO-8859-1";
+
+
+
+.btn_peq_tabla {
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:6px;
+	padding-right:6px;
+	line-height:12px;
+	font-size:11px;
+	color:#333333;
+	margin-top:-3px;
+	margin-bottom:-1px;	
+}
+
+.img_pdf {
+	width:20px;
+	height:20px;
+	background:url(images/iconografia/envios/logo_png.png);
+}
+
+.envio_notificacion {
+	width:400px;
+	height:auto;
+	min-height:35px;
+	min-width:400px;
+	display:inline-block;
+	background-color:#f8f6c8;
+	box-shadow: 2px 2px 5px 0px #b1b1b1;
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px;
+	color:#1E1E1E;
+	font-style:italic;
+	text-align:center;
+	float:left;
+	position:relative;
+	padding-top:8px;
+	padding-bottom:9px;
+	padding-left:35px;
+	background-repeat:no-repeat;
+	background-position:left;
+}
+
+.envio_notificacion_texto {
+}
+
+.envio_notif_correcto {
+	background-image:url(../images/iconografia/envios/icono_correcto.png);
+}
+
+.envio_notif_alerta {
+	background-image:url(../images/iconografia/envios/icono_alerta.png);
+}
+
+.alerta_datosobligatorios {
+	color:#990000;
+	font-style:italic;
+}
+
+.envios_nota {
+	font-style:italic;
+	color:#333333;
+}
+
+.tabla_envios_historial_1 {
+	border-style:solid;
+	border-width:1px;
+	border-color:#9A9A9A;
+	overflow-y:auto;
+	min-height:0;
+	height:343px;
+}
+
+.tabla_envios_historial_2 {
+	border-style:solid;
+	border-width:1px;
+	border-color:#9A9A9A;
+	overflow-y:auto;
+	min-height:0;
+	height:368px;
+}
+
+.tabla_envios_historial_3 {
+	border-style:solid;
+	border-width:1px;
+	border-color:#9A9A9A;
+	overflow-y:auto;
+	min-height:0;
+	height:240px;
+}
+
+.envio_metodo_maritimo {
+	width:72px;
+	height:72px;
+	background-image:url(../images/iconografia/autopago/btn_maritimo_normal.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:0 auto;
+}
+.envio_metodo_maritimo:hover,
+.envio_metodo_maritimo:active,
+.envio_metodo_maritimo:focus {
+	background-image:url(../images/iconografia/autopago/btn_maritimo_hover.png);
+	cursor:pointer;
+}
+
+.envio_metodo_terrestre {
+	width:72px;
+	height:72px;
+	background-image:url(../images/iconografia/autopago/btn_terrestre_normal.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:0 auto;
+}
+.envio_metodo_terrestre:hover,
+.envio_metodo_terrestre:active,
+.envio_metodo_terrestre:focus {
+	background-image:url(../images/iconografia/autopago/btn_terrestre_hover.png);
+	cursor:pointer;
+}
+
+.envio_metodo_aereo {
+	width:72px;
+	height:72px;
+	background-image:url(../images/iconografia/autopago/btn_aereo_normal.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:0 auto;
+}
+.envio_metodo_aereo:hover,
+.envio_metodo_aereo:active,
+.envio_metodo_aereo:focus {
+	background-image:url(../images/iconografia/autopago/btn_aereo_hover.png);
+	cursor:pointer;
+}
+

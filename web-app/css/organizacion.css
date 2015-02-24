@@ -1,0 +1,1378 @@
+@CHARSET "ISO-8859-1";
+
+
+.btn_org_grafica {
+	background-image:url(../images/iconografia/organizacion/grafica_normal.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-color:none;
+	width:36px;
+	height:40px;
+	cursor: pointer;
+	margin-top:8px;
+	position:relative;
+	float:inherit;
+}
+
+.btn_org_grafica:hover,
+.btn_org_grafica:active,
+.btn_org_grafica:focus {
+	background-image:url(../images/iconografia/organizacion/grafica_hover.png);
+}
+
+.btn_org_reporte {
+	background-image:url(../images/iconografia/organizacion/reporte_normal.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-color:none;
+	width:36px;
+	height:40px;
+	cursor: pointer;
+	margin-top:8px;
+	position:relative;
+	float:inherit;
+}
+
+.btn_org_reporte:hover,
+.btn_org_reporte:active,
+.btn_org_reporte:focus {
+	background-image:url(../images/iconografia/organizacion/reporte_hover.png);
+}
+
+.btn_org_futurosemp {
+	background-image:url(../images/iconografia/organizacion/futuros_emprendedores_normal.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-color:none;
+	width:36px;
+	height:40px;
+	cursor: pointer;
+	margin-top:8px;
+	position:relative;
+	float:inherit;
+}
+
+.btn_org_futurosemp:hover,
+.btn_org_futurosemp:active,
+.btn_org_futurosemp:focus {
+	background-image:url(../images/iconografia/organizacion/futuros_emprendedores_hover.png);
+}
+
+.btn_espacio {
+	width:36px;
+	height:40px;
+	margin-top:8px;
+	position:relative;
+	margin:0 auto;
+	float:inherit;
+}
+
+.contenedor_mapa_principal {
+	width:100%;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	padding:3px;
+	border-color:#c5c5c5;
+	border-style:solid;
+	border-width:1px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.contenedor_mapa_arbol {
+	width:100%;
+	height:400px;
+}
+.contenedor_mapa_detalle {
+	width:100%;
+	height:100px;
+}
+
+.navegacion_mapa {
+	width:60px;
+	height:60px;
+	position:absolute;
+	float:left;
+	vertical-align:top;
+	top:20px;
+	bottom:10px;
+	left:10px;
+	right:10px;
+	z-index:10;
+}
+
+.nav_mapa_espacio {
+	width:15px;
+	height:15px;
+	position:relative;
+	float:left;
+}
+
+.nav_mapa_arriba {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/iconografia/organizacion/arriba_a.png);
+}
+
+.nav_mapa_arriba:hover,
+.nav_mapa_arriba:active,
+.nav_mapa_arriba:focus {
+	cursor:pointer;
+	background:url(../images/iconografia/organizacion/arriba_b.png);
+}
+
+.nav_mapa_abajo {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/iconografia/organizacion/abajo_a.png);
+}
+
+.nav_mapa_abajo:hover,
+.nav_mapa_abajo:active,
+.nav_mapa_abajo:focus {
+	cursor:pointer;
+	background:url(../images/iconografia/organizacion/abajo_b.png);
+}
+
+.nav_mapa_izquierda {
+	width:15px;
+	height:30px;
+	position:relative;
+	float:left;
+	background:url(../images/iconografia/organizacion/izquierda_a.png);
+}
+
+.nav_mapa_izquierda:hover,
+.nav_mapa_izquierda:active,
+.nav_mapa_izquierda:focus {
+	cursor:pointer;
+	background:url(../images/iconografia/organizacion/izquierda_b.png);
+}
+
+.nav_mapa_derecha {
+	width:15px;
+	height:30px;
+	position:relative;
+	float:left;
+	background:url(../images/iconografia/organizacion/derecha_a.png);
+}
+
+.nav_mapa_derecha:hover,
+.nav_mapa_derecha:active,
+.nav_mapa_derecha:focus {
+	cursor:pointer;
+	background:url(../images/iconografia/organizacion/derecha_b.png);
+}
+
+.nav_mapa_zoom {
+	width:30px;
+	height:30px;
+	position:relative;
+	float:left;
+}
+
+.nav_mapa_aumenta {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/iconografia/organizacion/aumenta_a.png);
+}
+
+.nav_mapa_aumenta:hover,
+.nav_mapa_aumenta:active,
+.nav_mapa_aumenta:focus {
+	cursor:pointer;
+	background:url(../images/iconografia/organizacion/aumenta_b.png);
+}
+
+.nav_mapa_reduce {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/iconografia/organizacion/reduce_a.png);
+}
+
+.nav_mapa_reduce:hover,
+.nav_mapa_reduce:active,
+.nav_mapa_reduce:focus {
+	cursor:pointer;
+	background:url(../images/iconografia/organizacion/reduce_b.png);
+}
+
+.btn_celular_mapa {
+	width:32px;
+	height:32px;
+	position:absolute;
+	float:left;
+	vertical-align:top;
+	top:35px;
+	bottom:10px;
+	left:72px;
+	right:10px;
+	background:url(../images/iconografia/organizacion/vista_celular_a.png);
+}
+
+.btn_celular_mapa:hover,
+.btn_celular_mapa:focus,
+.btn_celular_mapa:active {
+	background:url(../images/iconografia/organizacion/vista_celular_b.png);
+	cursor:pointer;
+}
+
+.btn_arbol_mapa {
+	width:66px;
+	height:24px;
+	position:absolute;
+	float:left;
+	vertical-align:top;
+	top:40px;
+	bottom:10px;
+	left:115px;
+	right:10px;
+	background:url(../images/iconografia/organizacion/vista_arbol_a.png);
+}
+
+.btn_arbol_mapa:hover,
+.btn_arbol_mapa:focus,
+.btn_arbol_mapa:active {
+	background:url(../images/iconografia/organizacion/vista_arbol_b.png);
+	cursor:pointer;
+}
+
+
+.celda_encabezado {
+	text-align:center;
+	color:#FFFFFF;
+	font-size:13px;
+	font-weight:bold;
+	background-color:#8a1533;
+}
+
+.texto_encabezado_medio {
+	padding-top:18px;
+}
+
+.fila_striped2 {
+	text-align:center;
+	color:#333;
+	font-size:12px;
+	background-color:#f9f9f9;
+}
+
+.fila_striped1 {
+	text-align:center;
+	color:#333;
+	font-size:12px;
+	background-color:#ffffff;
+}
+
+.fila_transparente {
+	background-color:#fbfbfb;
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;	
+}
+
+.fila_principal {
+	text-align:center;
+	color:#333;
+	font-size:12px;
+	background-color:#e9cadc;
+}
+
+.celda_org_normal {
+	border-bottom:#999999 solid;
+	border-bottom-width:1px;
+	border-top:#999999 solid;
+	border-top-width:1px;
+	border-left:#999999 solid;
+	border-left-width:1px;
+	border-right:#999999 solid;
+	border-right-width:1px;
+}
+
+.celda_normal_total_der {
+	border-bottom:#999999 solid;
+	border-bottom-width:1px;
+	border-top:#999999 solid;
+	border-top-width:1px;
+	border-left:#999999 solid;
+	border-left-width:1px;
+	border-right:#999999 solid;
+	border-right-width:1px;
+	background-color:#fbfbfb;
+	font-weight:bold;
+	text-align:right;
+}
+.celda_normal_total_izq {
+	border-bottom:#999999 solid;
+	border-bottom-width:1px;
+	border-top:#999999 solid;
+	border-top-width:1px;
+	border-left:#999999 solid;
+	border-left-width:1px;
+	border-right:#999999 solid;
+	border-right-width:1px;
+	background-color:#ffffff;
+	font-weight:bold;
+	text-align:right;
+}
+
+
+
+.celda_org_izq {
+	border-bottom:#999999 solid;
+	border-bottom-width:1px;
+	border-top:#999999 solid;
+	border-top-width:1px;
+	border-left:#999999 solid;
+	border-left-width:1px;
+	border-right:#999999 solid;
+	border-right-width:0px;
+}
+
+.celda_org_der {
+	border-bottom:#999999 solid;
+	border-bottom-width:1px;
+	border-top:#999999 solid;
+	border-top-width:1px;
+	border-left:#999999 solid;
+	border-left-width:0px;
+	border-right:#999999 solid;
+	border-right-width:1px;
+}
+
+.celda_en_blanco {
+	border-top-width:0px;
+	border-bottom-width:0px;
+	border-left-width:0px;
+	border-right-width:0px;
+	background-color:#FFFFFF;
+}
+
+
+.btn_5principales {
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	margin-right:2px;
+	background:url(../images/iconografia/organizacion/acciones/5_principales_a.png);
+}
+
+.btn_5principales:hover,
+.btn_5principales:active,
+.btn_5principales:focus {
+	background:url(../images/iconografia/organizacion/acciones/5_principales_b.png);
+	cursor:pointer;
+}
+
+.btn_25principales {
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	margin-right:2px;
+	background:url(../images/iconografia/organizacion/acciones/25_principales_a.png);
+}
+
+.btn_25principales:hover,
+.btn_25principales:active,
+.btn_25principales:focus {
+	background:url(../images/iconografia/organizacion/acciones/25_principales_b.png);
+	cursor:pointer;
+}
+
+.btn_cita {
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	margin-right:2px;
+	background:url(../images/iconografia/organizacion/acciones/cita_a.png);
+}
+
+.btn_cita:hover,
+.btn_cita:active,
+.btn_cita:focus {
+	background:url(../images/iconografia/organizacion/acciones/cita_b.png);
+	cursor:pointer;
+}
+
+.btn_masadelante {
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	margin-right:2px;
+	background:url(../images/iconografia/organizacion/acciones/mas_adelante_a.png);
+}
+
+.btn_masadelante:hover,
+.btn_masadelante:active,
+.btn_masadelante:focus {
+	background:url(../images/iconografia/organizacion/acciones/mas_adelante_b.png);
+	cursor:pointer;
+}
+
+.btn_sininteres {
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	margin-right:2px;
+	background:url(../images/iconografia/organizacion/acciones/sin_interes_a.png);
+}
+
+.btn_sininteres:hover,
+.btn_sininteres:active,
+.btn_sininteres:focus {
+	background:url(../images/iconografia/organizacion/acciones/sin_interes_b.png);
+	cursor:pointer;
+}
+
+.btn_eliminar {
+	width:20px;
+	height:20px;
+	float:right;
+	position:relative;
+	margin-right:2px;
+	background:url(../images/iconografia/organizacion/acciones/eliminar_a.png);
+}
+
+.btn_eliminar:hover,
+.btn_eliminar:active,
+.btn_eliminar:focus {
+	background:url(../images/iconografia/organizacion/acciones/eliminar_b.png);
+	cursor:pointer;
+}
+
+.org_msg_acomodatxt1 {
+	margin-top:17px;
+}
+
+.org_msg_acomodatxt2 {
+	margin-top:15px;
+}
+
+.accion:hover,
+.accion:active,
+.accion:focus {
+	cursor:pointer;
+}
+
+*{
+margin: 0;
+padding: 0;
+}
+figure{
+width: 180px;
+display: inline-block;
+margin-top: 10px;
+float: right;
+}
+figure img{
+width: 180px;
+}
+#contenedor{
+width: 50%;
+margin: auto;
+}
+#caja{
+	width: 100%;
+	overflow-y:auto;
+	overflow-x:hidden;
+	z-index:10;
+	position:absolute;
+	margin: auto;
+	height: 0px;
+	background:url(../images/iconografia/organizacion/notificaciones/fondo.png);
+	background-repeat:repeat-x;
+	border-color:#999999;
+  	border-radius: 4px;
+	transition: height .4s;
+	box-shadow: 0 0 4px 0px #999999;
+}
+
+#caja2{
+width: 100%;
+margin: auto;
+height: 0px;
+background: #000;
+box-shadow: 10px 10px 3px #D8D8D8;
+transition: height .4s;
+}
+#boton2:hover + div#caja2{
+height: 100px;
+}
+#boton2{
+padding: 10px;
+background: orange;
+width: 95px;
+cursor: pointer;
+margin-top: 10px;
+margin-bottom: 10px;
+box-shadow: 0px 0px 1px #000;
+display: inline-block;
+}
+#boton{
+padding: 10px;
+background: orange;
+width: 95px;
+cursor: pointer;
+margin-top: 10px;
+margin-bottom: 10px;
+box-shadow: 0px 0px 1px #000;
+display: inline-block;
+}
+#boton:hover{
+opacity: .8;
+}
+
+.notificacion {
+	width:100%;
+	min-height:40px;
+	font-size:10px;
+	line-height:16px;
+	color:#333333;
+	padding-left:40px;
+	border-bottom:#CCCCCC;
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	margin-bottom:3px;
+	margin-top:3px;
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_recordatorio1 {
+	background:url(../images/iconografia/organizacion/notificaciones/recordatorio_pago.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_recordatorio2 {
+	background:url(../images/iconografia/organizacion/notificaciones/vencimiento_pago.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_pagoprocesado {
+	background:url(../images/iconografia/organizacion/notificaciones/pago_procesado.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_primeravisovencimiento {
+	background:url(../images/iconografia/organizacion/notificaciones/primer_aviso_vencimiento.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_segundoavisovencimiento {
+	background:url(../images/iconografia/organizacion/notificaciones/segundo_aviso_vencimiento.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_terceravisovencimiento {
+	background:url(../images/iconografia/organizacion/notificaciones/tercer_aviso_vencimiento.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_primeravisosuspension {
+	background:url(../images/iconografia/organizacion/notificaciones/primer_aviso_suspension.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_segundoavisosuspension {
+	background:url(../images/iconografia/organizacion/notificaciones/segundo_aviso_suspension.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_terceravisosuspension {
+	background:url(../images/iconografia/organizacion/notificaciones/tercer_aviso_suspension.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_cuentasuspendida {
+	background:url(../images/iconografia/organizacion/notificaciones/cuenta_suspendida.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_ultimaoportunidad {
+	background:url(../images/iconografia/organizacion/notificaciones/oportunidad_reactivar.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_orglibrevta {
+	background:url(../images/iconografia/organizacion/notificaciones/organizacion_libre.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_autopagonocompletado {
+	background:url(../images/iconografia/organizacion/notificaciones/autopago_no_completo.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_creditoinsuficiente {
+	background:url(../images/iconografia/organizacion/notificaciones/credito_insuficiente.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_cumpleanos {
+	background:url(../images/iconografia/organizacion/notificaciones/cumpleanos.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_aniversarioboda {
+	background:url(../images/iconografia/organizacion/notificaciones/aniversario_boda.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_proximasubirrango {
+	background:url(../images/iconografia/organizacion/notificaciones/proximo_subir_rango.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_alcanzarango {
+	background:url(../images/iconografia/organizacion/notificaciones/alcanza_rango.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_bajaproductividad {
+	background:url(../images/iconografia/organizacion/notificaciones/baja_productividad.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_aumentaproductividad {
+	background:url(../images/iconografia/organizacion/notificaciones/aumenta_productividad.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_estatusinactivo {
+	background:url(../images/iconografia/organizacion/notificaciones/estatus_inactivo.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_estatustransferible {
+	background:url(../images/iconografia/organizacion/notificaciones/estatus_transferible.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_estatussuspendido {
+	background:url(../images/iconografia/organizacion/notificaciones/estatus_suspendido.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_estatusactivo {
+	background:url(../images/iconografia/organizacion/notificaciones/estatus_activo.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_regitroorg {
+	background:url(../images/iconografia/organizacion/notificaciones/registro_organizacion.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.notif_solicitaubicar {
+	background:url(../images/iconografia/organizacion/notificaciones/solicitud_ubicacion.png);
+	background-position:middle;
+	background-repeat:no-repeat;
+}
+
+.btn_notif {
+	padding:5px;
+	font-size:10px;
+}
+
+.contenedor_ramificaciones {
+	overflow:scroll;
+	width:auto;
+	height:400px;
+	border:#cccccc;
+	border-style:solid;
+	border-width:1px;
+}
+
+.btn_peq {
+	padding-top:6px;
+	padding-bottom:6px;
+	padding-left:6px;
+	padding-right:6px;
+	line-height:12px;
+	font-size:11px;
+	margin-top:5px;
+	color:#333333;
+}
+
+#muestrame_detalles {
+}
+
+.modal_social {
+	display:none;
+	font-size:11px;
+	width:180px;
+	padding:5px;
+	box-shadow: 2px 2px 3px 0px #c5c5c5;
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	position:absolute;
+	top:35px;
+	left:52%;
+	z-index:5;
+	text-align:left;
+}
+
+.modal_btn_telefono {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_telefono_a.png);
+	width:24px;
+	height:24px;
+}
+
+.modal_btn_telefono:hover,
+.modal_btn_telefono:focus,
+.modal_btn_telefono:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_telefono_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_mensaje {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_mensaje_a.png);
+	width:24px;
+	height:24px;
+}
+
+.modal_btn_mensaje:hover,
+.modal_btn_mensaje:focus,
+.modal_btn_mensaje:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_mensaje_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_skype {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_skype_a.png);
+	width:24px;
+	height:24px;
+}
+
+.modal_btn_skype:hover,
+.modal_btn_skype:focus,
+.modal_btn_skype:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_skype_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_facebook {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facebook_a.png);
+	width:24px;
+	height:24px;
+}
+
+.modal_btn_facebook:hover,
+.modal_btn_facebook:focus,
+.modal_btn_facebook:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facebook_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_twitter {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_twitter_a.png);
+	width:24px;
+	height:24px;
+}
+
+.modal_btn_twitter:hover,
+.modal_btn_twitter:focus,
+.modal_btn_twitter:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_twitter_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_facetime {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facetime_a.png);
+	width:24px;
+	height:24px;
+}
+
+.modal_btn_facetime:hover,
+.modal_btn_facetime:focus,
+.modal_btn_facetime:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facetime_b.png);
+	cursor:pointer;
+}
+
+
+
+
+
+
+.modal_btn_peq_telefono {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_telefono_peq_a.png);
+	width:16px;
+	height:16px;
+}
+
+.modal_btn_peq_telefono:hover,
+.modal_btn_peq_telefono:focus,
+.modal_btn_peq_telefono:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_telefono_peq_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_peq_mensaje {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_mensaje_peq_a.png);
+	width:16px;
+	height:16px;
+}
+
+.modal_btn_peq_mensaje:hover,
+.modal_btn_peq_mensaje:focus,
+.modal_btn_peq_mensaje:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_mensaje_peq_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_peq_skype {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_skype_peq_a.png);
+	width:16px;
+	height:16px;
+}
+
+.modal_btn_peq_skype:hover,
+.modal_btn_peq_skype:focus,
+.modal_btn_peq_skype:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_skype_peq_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_peq_facebook {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facebook_peq_a.png);
+	width:16px;
+	height:16px;
+}
+
+.modal_btn_peq_facebook:hover,
+.modal_btn_peq_facebook:focus,
+.modal_btn_peq_facebook:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facebook_peq_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_peq_twitter {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_twitter_peq_a.png);
+	width:16px;
+	height:16px;
+}
+
+.modal_btn_peq_twitter:hover,
+.modal_btn_peq_twitter:focus,
+.modal_btn_peq_twitter:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_twitter_peq_b.png);
+	cursor:pointer;
+}
+
+.modal_btn_peq_facetime {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facetime_peq_a.png);
+	width:16px;
+	height:16px;
+}
+
+.modal_btn_peq_facetime:hover,
+.modal_btn_peq_facetime:focus,
+.modal_btn_peq_facetime:active {
+	background:url(../images/iconografia/organizacion/botones/btn_modal_facetime_peq_b.png);
+	cursor:pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cerrarmodal {
+	width:9px;
+	height:9px;
+	background:url(../images/iconografia/organizacion/botones/cerrarmodal.png);
+	position:absolute;
+	top:3px;
+	right:3px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+	z-index:5;
+}
+
+.cerrarmodal:hover,
+.cerrarmodal:focus,
+.cerrarmodal:active {
+	cursor:pointer;
+}
+
+.cerrarmodal_notif {
+	width:9px;
+	height:9px;
+	background:url(../images/iconografia/organizacion/botones/cerrarmodal.png);
+	background-color:#F8F8F8;
+	position:absolute;
+	top:-3px;
+	right:-3px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+}
+
+.cerrarmodal:hover,
+.cerrarmodal:focus,
+.cerrarmodal:active {
+	cursor:pointer;
+}
+
+
+.modal_telefonos {
+	font-size:11px;
+	width:230px;
+	padding:10px;
+	box-shadow: 2px 2px 3px 0px #c5c5c5;
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	position:absolute;
+	top:100px;
+	left:130px;
+	z-index:2;
+}
+
+.modal_telefonos_peq {
+	font-size:11px;
+	width:120px;
+	padding:3px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	position:absolute;
+	top:8px;
+	right:58%;
+	z-index:2;
+	text-align:left;
+	background:#FBFBFB;
+}
+
+.modal_mensaje_peq {
+	font-size:11px;
+	width:150px;
+	padding:3px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	position:absolute;
+	top:8px;
+	right:58%;
+	z-index:2;
+	text-align:left;
+	background:#FBFBFB;
+}
+
+.modal_agendarcita {
+	font-size:11px;
+	width:230px;
+	padding:10px;
+	box-shadow: 2px 2px 3px 0px #c5c5c5;
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	position:absolute;
+	top:55px;
+	right:90px;
+	z-index:2;
+}
+
+.cerrarmodal_telefonos {
+	width:12px;
+	height:12px;
+	background:url(../images/iconografia/organizacion/botones/cerrarmodal2.png);
+	position:absolute;
+	top:5px;
+	right:5px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+}
+
+.cerrarmodal_telefonos:hover,
+.cerrarmodal_telefonos:focus,
+.cerrarmodal_telefonos:active {
+	cursor:pointer;
+}
+
+.imagen_categoria {
+	margin-top:20px;
+	margin-bottom:10px;
+	padding-rigth:5px;
+	text-align:center;
+	color:#666666;
+	font-size:11px;
+	line-height:15px;
+}
+.imagen_productividad {
+	margin-top:10px;
+	margin-bottom:10px;
+	padding-rigth:5px;
+	text-align:center;
+	color:#666666;
+	font-size:11px;
+	line-height:15px;
+}
+
+
+.notif_modal_proxsubirrango {
+	width:30px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/alcanza_rango.png);
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+
+
+.notif_modal_anivboda {
+	width:30px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/aniversario_boda.png);
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+
+.notif_modal_anivbodahoy {
+	width:30px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/aniversario_boda.png);
+	border:#FFCC00;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+
+.notif_modal_cumpleanos {
+	width:30px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/cumpleanos.png);
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+.notif_modal_cumpleanoshoy {
+	width:30px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/cumpleanos.png);
+	border:#FFCC00;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+
+.notif_modal_nivelrango {
+	width:30px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/nivelrango.png);
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+
+.notif_modal_cumpleboda {
+	width:42px;
+	height:30px;
+	background:url(../images/iconografia/organizacion/notificaciones_peq/aniversario_cumple_boda.png);
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0px 0px 3px 0px #c5c5c5;
+	z-index:3;
+	position:absolute;
+	top:-3px;
+	left:53%;
+}
+
+.org_mensaje_proyeccion {
+	box-shadow: 2px 2px 3px 0px #c5c5c5;
+	padding:5px;
+	position:absolute;
+	top:8px;
+	right:30px;
+	width:160px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+}
+
+.org_msj_proyeccion_grupos {
+	font-style:italic;
+	font-size:12px;
+	text-align:center;
+	line-height:16px;
+}
+.org_msj_productividad_grupos {
+	font-style:italic;
+	font-size:11px;
+	text-align:center;
+	line-height:11px;
+	margin-top:-2px;
+	margin-left:-5px;
+}
+
+.org_msj_proyeccion_porcentajenaranja {
+	font-size:15px;
+	text-align:center;
+	line-height:24px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(../images/iconografia/organizacion/porcentaje_naranja.png);
+	width:50px;
+	height:24px;
+	padding-left:10px;
+	margin-left:-2px;
+	margin-top:-5px;
+}
+
+.org_msj_proyeccion_porcentajerojo {
+	font-size:15px;
+	text-align:center;
+	line-height:24px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(../images/iconografia/organizacion/porcentaje_rojo.png);
+	width:50px;
+	height:24px;
+	padding-left:10px;
+	margin-left:-2px;
+	margin-top:-5px;
+}
+
+.org_msj_proyeccion_porcentajeverde {
+	font-size:15px;
+	text-align:center;
+	line-height:24px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(../images/iconografia/organizacion/porcentaje_verde.png);
+	width:50px;
+	height:24px;
+	padding-left:10px;
+	margin-left:-2px;
+	margin-top:-5px;
+}
+
+.org_msj_productividad_porcentajenaranja {
+	font-size:20px;
+	text-align:center;
+	line-height:28px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(../images/iconografia/organizacion/porcentaje_naranja_m2.png);
+	width:60px;
+	height:30px;
+	padding-left:10px;
+	margin-left:-2px;
+	margin-left:-12px;
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+.org_msj_productividad_porcentajerojo {
+	font-size:20px;
+	text-align:center;
+	line-height:28px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(../images/iconografia/organizacion/porcentaje_rojo_m2.png);
+	width:60px;
+	height:30px;
+	padding-left:10px;
+	margin-left:-12px;
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+.org_msj_productividad_porcentajeverde {
+	font-size:20px;
+	text-align:center;
+	line-height:28px;
+	font-weight:bold;
+	color:#FFFFFF;
+	background:url(../images/iconografia/organizacion/porcentaje_verde_m2.png);
+	width:60px;
+	height:30px;
+	padding-left:10px;
+	margin-left:-12px;
+	margin-top:-5px;
+	margin-bottom:-5px;
+}
+
+
+.org_msj_proyeccion_rangoactual {
+	width:25px;
+	height:25px;
+	margin-top:5px;
+	margin-bottom:5px;
+	position:relative;
+	float:right;
+}
+
+.org_msj_proyeccion_rangosiguiente {
+	width:25px;
+	height:25px;
+	margin-top:5px;
+	margin-bottom:5px;
+	position:relative;
+	float:left;
+}
+
+.org_msj_proyeccion_gruposfaltantes {
+	width:78px;
+	height:25px;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left:-4px;
+	position:relative;
+	background:url(../images/iconografia/organizacion/fnd_gruposfaltantes.png);
+	padding-right:5px;
+	font-size:10px;
+	line-height:8px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.org_msj_proyeccion_nota {
+	font-size:10px;
+	line-height:10px;
+	font-style:italic;
+	text-align:left;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.org_mensaje_regaliaactual {
+	box-shadow: 2px 2px 3px 0px #c5c5c5;
+	padding:5px;
+	position:absolute;
+	top:115px;
+	right:30px;
+	width:140px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+	font-size:11px;
+	text-align:center;
+}
+
+.org_mensaje_regaliaposible {
+	box-shadow: 2px 2px 3px 0px #c5c5c5;
+	padding:5px;
+	position:absolute;
+	top:148px;
+	right:30px;
+	width:140px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+	font-size:11px;
+	text-align:center;
+}
+
+.altura_fila_2 {
+	height:25px;
+}
+
+.totalstatusautopago {
+	font-size:13px;
+	font-weight:bold;
+	text-align:center;
+	background-color:#FFFFFF;
+	color:#252525;
+
+}
+
+.espacio_check {
+	width:12px;
+	height:12px;
+	margin:10px;
+	z-index:5;
+}
+
+.texto_check {
+	font-size:13px;
+	font-weight:bold;
+	margin-top:12px;
+	margin-bottom:10px;
+	padding-left:15px;
+}
+
+
+

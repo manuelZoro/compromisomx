@@ -1,0 +1,36 @@
+<div class="table-responsive tabla_buscador_1" >
+	<div class="cal-week-box" style="overflow-x:scroll; height:351px;">	
+	   <div style="width:1400px;">
+	    <div class="cal-offset0 cal-column"></div>
+		<div class="cal-offset1 cal-column"></div>
+		<div class="cal-offset2 cal-column"></div>
+		<div class="cal-offset3 cal-column"></div>
+		<div class="cal-offset4 cal-column"></div>
+		<div class="cal-offset5 cal-column"></div>
+		<div class="cal-offset6 cal-column"></div>
+		
+		<div class="cal-row-fluid cal-row-head">
+			<div class="cal-cell1" style="width:5.2857%;*width:5.2857%; text-align:center; !important"data-toggle="tooltip" title="HORA"><img src="/compromisomx/images/iconografia/agenda/bullet_rosa.png">HORA<br></div>
+			<% _.each(months, function(name) { %>
+				<div class="cal-cell1 <%= cal._getDayClass('week', start) %>" data-toggle="tooltip" title="<%= cal._getHolidayName(start) %>"><%= name %> <%= start.getDate() %>/<%= start.getMonthFormatted() %><br>
+				</div>
+				<% start.setDate(start.getDate() + 1); %>
+			<% }) %>
+		</div>
+		<div class="cal-column" id="cal-day-panel-hour" style="z-index:5 !important; padding-left:28px;">
+				<% for(i = 0; i < 24; i++){ %>
+					<div class="cal-day-hour">
+						<% for(l = 0; l < 1; l++){ %>
+							<div class="row-fluid cal-day-hour-part">
+								<div class="cal-row-fluid"><b><%= cal._hour(i, l) %></b></div>
+							</div>
+					<% }; %>
+					</div>
+				<% }; %>
+			</div>
+			
+			<hr>
+			<%= cal._week() %>
+		</div>
+	</div>			
+</div>

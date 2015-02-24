@@ -1,0 +1,21 @@
+@CHARSET "ISO-8859-1";
+
+.estilo_piepagina {
+  background-image:url(../images/iconografia/navbar_registro/fondo_footer.png);
+  background-repeat:repeat-x;
+  background-position:top;
+  height:90px;
+}
+
+.pie_pagina_vinculo {
+  color:#ffffff;
+}
+
+.pie_pagina_texto {
+  color:#ffffff;
+}
+
+.acomodo_texto {
+  margin-top: 25px;
+}
+

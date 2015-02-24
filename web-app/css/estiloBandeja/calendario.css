@@ -1,0 +1,601 @@
+@CHARSET "ISO-8859-1";
+
+.JsDatePickBox {
+	width: 100%;
+	font-family: Arial;
+	position: relative; top: 0px; left: 0px;
+}
+
+/*
+.JsDatePickBox .jsDatePickCloseButton {
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+	top: 1px;
+	right: 10px;
+	width: 33px;
+	height: 13px;
+	background: url(/compromisomx//compromisomx/images/calendar/closeButton_normal.gif) left top no-repeat;
+}
+
+.JsDatePickBox .jsDatePickCloseButtonOver {
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+	top: 1px;
+	right: 10px;
+	width: 33px;
+	height: 13px;
+	background: url(/compromisomx/images/calendar/closeButton_over.gif) left top no-repeat;
+}
+
+.JsDatePickBox .jsDatePickCloseButtonDown {
+	cursor: pointer;
+	position: absolute;
+	z-index: 1;
+	top: 1px;
+	right: 10px;
+	width: 33px;
+	height: 13px;
+	background: url(/compromisomx/images/calendar/closeButton_down.gif) left top no-repeat;
+}
+
+.JsDatePickBox .boxLeftWall {
+	float: left;
+	width: 7px;
+	margin: 0;
+	padding: 0;
+}
+
+.JsDatePickBox .boxLeftWall .leftTopCorner {
+	margin: 0;
+	padding: 0;
+	width: 7px;
+	height: 8px;
+	background: url(/compromisomx/images/calendar/boxTopLeftCorner.png) left top no-repeat;
+	overflow: hidden;
+}
+
+.JsDatePickBox .boxLeftWall .leftBottomCorner {
+	margin: 0;
+	padding: 0;
+	width: 7px;
+	height: 8px;
+	background: url(/compromisomx/images/calendar/boxBottomLeftCorner.png) left top no-repeat;
+	overflow: hidden;
+}
+
+.JsDatePickBox .boxLeftWall .leftWall {
+	margin: 0;
+	padding: 0;
+	width: 7px;
+	background: url(/compromisomx/images/calendar/boxSideWallPx.gif) #fff left top repeat-y;
+	overflow: hidden;
+}
+
+.JsDatePickBox .boxRightWall {
+	float: left;
+	width: 7px;
+	margin: 0;
+	padding: 0;
+}
+
+.JsDatePickBox .boxRightWall .rightTopCorner {
+	margin: 0;
+	padding: 0;
+	width: 7px;
+	height: 8px;
+	background: url(/compromisomx/images/calendar/boxTopRightCorner.png) left top no-repeat;
+	overflow: hidden;
+}
+
+.JsDatePickBox .boxRightWall .rightBottomCorner {
+	margin: 0;
+	padding: 0;
+	width: 7px;
+	height: 8px;
+	background: url(/compromisomx/images/calendar/boxBottomRightCorner.png) left top no-repeat;
+	overflow: hidden;
+}
+
+.JsDatePickBox .boxRightWall .rightWall {
+	margin: 0;
+	padding: 0;
+	width: 7px;
+	background: url(/compromisomx/images/calendar/boxSideWallPx.gif) #fff right top repeat-y;
+	overflow: hidden;
+}
+
+.JsDatePickBox .topWall {
+	position: absolute;
+	overflow: hidden;
+	top: 0;
+	left: 7px;
+	width: 198px;
+	height: 4px;
+	background: url(/compromisomx/images/calendar/boxTopPx.gif) #fff left top repeat-x;
+}
+
+.JsDatePickBox .bottomWall {
+	position: absolute;
+	overflow: hidden;
+	bottom: -1px;
+	left: 7px;
+	width: 198px;
+	height: 4px;
+	background: url(/compromisomx/images/calendar/boxTopPx.gif) #fff left top repeat-x;
+}
+
+.JsDatePickBox .hiddenBoxLeftWall {
+	float: left;
+	width: 0;
+	overflow: hidden;
+	overflow: hidden;
+}
+
+.JsDatePickBox .hiddenBoxRightWall {
+	float: left;
+	width: 0;
+	overflow: hidden;
+	overflow: hidden;
+}
+
+*/
+
+.JsDatePickBox .boxMain {
+	float: center;
+	background-color: transparent;
+	margin: 0;
+	padding: 0px 0 0px 0;
+}
+
+.JsDatePickBox .boxMainStripped {
+	background: #fff;
+	border: none;
+}
+
+.JsDatePickBox .tooltip {
+	height: 12px;
+	line-height: 11px;
+	overflow: hidden;
+	font-size: 10px;
+	color: #666;
+	text-align: left;
+	padding: 0;
+	margin: 2px 0 2px 0;
+}
+
+.JsDatePickBox .weekDaysRow {
+	height: 12px;
+	overflow: hidden;
+	line-height: 11px;
+	font-size: 10px;
+	color: #666;
+	text-align: center;
+	padding: 0;
+	margin: 2px 0 0 0;
+}
+
+.JsDatePickBox .weekDaysRow .weekDay {
+	float: left;
+	height: 14px;
+	overflow: hidden;
+	width: 24px;
+	margin: 0 5px 0 0;
+	padding: 0;
+}
+
+.JsDatePickBox .weekDaysRow .weekDay_FinalFila {
+	float: left;
+	height: 14px;
+	overflow: hidden;
+	width: 24px;
+	margin: 0 5px 0 0;
+	padding: 0;
+	margin-right: 0px;
+}
+
+.JsDatePickBox .boxMainInner {
+	background: #fff;
+	width: 198px;
+	float: center;
+	margin: 0px 0 0 0;
+	padding: 0;
+	margin-bottom:5px;
+	padding-bottom:15px;
+}
+
+.JsDatePickBox .boxMainCellsContainer {
+	background-color: #fff;
+	margin: 0;
+	padding: 0;
+}
+
+.JsDatePickBox .boxMainInner .controlsBar {
+	overflow: hidden;
+	height: 20px;
+	position: relative;
+}
+
+.JsDatePickBox .boxMainInner .controlsBarText {
+	overflow: hidden;
+	height: 20px;
+	line-height: 20px;
+	color: #000;
+	font-size: 12px;
+	text-align: center;
+}
+
+.JsDatePickBox .boxMainInner .monthForwardButton {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 22px;
+	background-image:url(../images/iconografia/calendario/mes_siguiente.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .monthForwardButtonOver {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 22px;
+	background-image:url(../images/iconografia/calendario/mes_siguiente_over.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .monthForwardButtonDown {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 22px;
+	background-image:url(../images/iconografia/calendario/mes_siguiente_down.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .monthBackwardButton {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 22px;
+	background-image:url(../images/iconografia/calendario/mes_anterior.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .monthBackwardButtonOver {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 22px;
+	background-image:url(../images/iconografia/calendario/mes_anterior_over.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .monthBackwardButtonDown {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 22px;
+	background-image:url(../images/iconografia/calendario/mes_anterior_down.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .yearForwardButton {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image:url(../images/iconografia/calendario/anio_siguiente.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .yearForwardButtonOver {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image:url(../images/iconografia/calendario/anio_siguiente_over.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .yearForwardButtonDown {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background-image:url(../images/iconografia/calendario/anio_siguiente_down.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .yearBackwardButton {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image:url(../images/iconografia/calendario/anio_anterior.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .yearBackwardButtonOver {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image:url(../images/iconografia/calendario/anio_anterior_over.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .yearBackwardButtonDown {
+	overflow: hidden;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image:url(../images/iconografia/calendario/anio_anterior_down.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .skipDay {
+	cursor: default;
+	overflow: hidden;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+}
+
+.JsDatePickBox .boxMainInner .dayNormal {
+	-khtml-user-select: none;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	color: #4c4c4c;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+	background-image:url(../images/iconografia/calendario/fondo_dianormal_2.png) 0% 0% no-repeat;
+}
+
+.JsDatePickBox .boxMainInner .dayNormal_FinalFila {
+	-khtml-user-select: none;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	color: #4c4c4c;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+	margin_right: 0px;
+	background-image:url(../images/iconografia/calendario/fondo_dianormal_2.png) 0% 0% no-repeat;
+	margin-right:0px;
+}
+
+
+.JsDatePickBox .boxMainInner .dayNormalToday {
+	-khtml-user-select: none;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	color: #ffffff;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+	background-image:url(../images/iconografia/calendario/fondo_diahoy.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+.JsDatePickBox .boxMainInner .dayNormalToday_FinalFila {
+	-khtml-user-select: none;
+	font-size: 12px;
+	cursor: pointer;
+	overflow: hidden;
+	color: #ffffff;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+	background-image:url(../images/iconografia/calendario/fondo_diahoy.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	margin-right: 0px;
+}
+
+.JsDatePickBox .boxMainInner .dayDisabled {
+	-khtml-user-select: none;
+	cursor: default;
+	font-size: 12px;
+	overflow: hidden;
+	color: #999;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+}
+
+.JsDatePickBox .boxMainInner .dayOver {
+	-khtml-user-select: none;
+	cursor: pointer;
+	font-size: 12px;
+	overflow: hidden;
+	color: #4c4c4c;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+}
+
+.JsDatePickBox .boxMainInner .dayOverToday {
+	-khtml-user-select: none;
+	cursor: pointer;
+	font-size: 12px;
+	overflow: hidden;
+	color: #ffffff;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+	background-image:url(../images/iconografia/calendario/fondo_diahoy_hover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+
+}
+
+.JsDatePickBox .boxMainInner .dayDown {
+	-khtml-user-select: none;
+	cursor: pointer;
+	font-size: 12px;
+	overflow: hidden;
+	color: #F9F9F9;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+}
+
+.JsDatePickBox .boxMainInner .dayDownToday {
+	-khtml-user-select: none;
+	cursor: pointer;
+	font-size: 12px;
+	overflow: hidden;
+	color: #f40f0f;
+	font-weight: bold;
+	width: 24px;
+	height: 25px;
+	float: left;
+	margin: 4px 5px 0 0;
+	padding: 0;
+	text-align: center;
+	line-height: 25px;
+}
+
+.JsDatePickBox .fecha_principal {
+	background-color:#A38FE7;
+	text-align:left;
+	margin-left:0px;
+	margin-right:0px;
+	margin-bottom:15px;
+	margin-top:0px;
+	height: 200px;
+	width:100%;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+
+.dayNormal:hover, 
+.dayNormal:focus,
+.dayNormal_FinalFila:hover,
+.dayNormal_FinalFila:focus {
+	background-image:url(../images/iconografia/calendario/fondo_dianormal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.dayNormalToday:hover, 
+.dayNormalToday:focus,
+.dayNormalToday_FinalFila:hover,
+.dayNormalToday_FinalFila:focus {
+	background-image:url(../images/iconografia/calendario/fondo_diahoy_hover.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.texto_cal_1 {
+	color:#FFFFFF;
+	font-size:18px;
+}
+
+.texto_cal_2 {
+	color:#FFFFFF;
+	font-size:96px;
+	font-weight:300;
+	line-height:120px;
+}
+
+
+.monthForwardButton:hover, 
+.monthForwardButton:focus {
+	background-image:url(../images/iconografia/calendario/mes_siguiente_hover.png);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+

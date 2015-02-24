@@ -1,0 +1,266 @@
+@CHARSET "ISO-8859-1";
+
+.btn_msjadmin {
+	background-image:url(../images/iconografia/AccionesPrincipales/SinSeleccionar/mensajes_administrador_30.png);
+	background-repeat:no-repeat;
+	background-color:none;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+}
+
+.btn_msjemprendedores {
+	background-image:url(../images/iconografia/AccionesPrincipales/SinSeleccionar/mensajes_emprendedores_30.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+}
+
+.btn_alertassistema {
+	background-image:url(../images/iconografia/AccionesPrincipales/SinSeleccionar/alertas_sistema_30.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+}
+
+.btn_ubicemprend {
+	background-image:url(../images/iconografia/AccionesPrincipales/SinSeleccionar/ubicacion_emprendedores_30.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+}
+
+.btn_agenda {
+	background-image:url(../images/iconografia/AccionesPrincipales/SinSeleccionar/agenda_30.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:30px;
+	height:30px;
+	cursor: pointer;
+	float:left;
+}
+
+.btn_msjadmin:hover,
+.btn_msjadmin:focus
+.btn_msjadmin:active {
+	background-image:url(../images/iconografia/AccionesPrincipales/Seleccionadas/mensajes_administrador_30.png);
+	cursor: pointer;
+}
+
+.btn_msjemprendedores:hover,
+.btn_msjemprendedores:focus
+.btn_msjemprendedores:active {
+	background-image:url(../images/iconografia/AccionesPrincipales/Seleccionadas/mensajes_emprendedores_30.png);
+	cursor: pointer;
+}
+
+.btn_alertassistema:hover,
+.btn_alertassistema:focus
+.btn_alertassistema:active {
+	background-image:url(../images/iconografia/AccionesPrincipales/Seleccionadas/alertas_sistema_30.png);
+	cursor: pointer;
+}
+
+.btn_ubicemprend:hover,
+.btn_ubicemprend:focus
+.btn_ubicemprend:active {
+	background-image:url(../images/iconografia/AccionesPrincipales/Seleccionadas/ubicacion_emprendedores_30.png);
+	cursor: pointer;
+}
+
+.btn_agenda:hover,
+.btn_agenda:focus
+.btn_agenda:active {
+	background-image:url(../images/iconografia/AccionesPrincipales/Seleccionadas/agenda_30.png);
+	cursor: pointer;
+}
+
+
+.btn_nvacita {
+	padding-left: 57px;
+	padding-right: 57px;
+	color:#333333;
+}
+
+.btn_menu_agenda {
+	margin-left: 20px;
+	color:#333333;
+}
+
+.btn_menu_agenda_3 {
+	margin-left:-5px;
+	color:#333333;
+}
+
+
+
+.btn_nvacita, .btn_menu_agenda, .btn_menu_agenda2 {
+	background-image:url(../images/iconografia/agenda/fnd_btn_1_a.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+.btn_nvacita:hover, 
+.btn_nvacita:focus,
+.btn_nvacita:active, 
+.btn_menu_agenda:hover,
+.btn_menu_agenda:focus,
+.btn_menu_agenda:active,  
+.btn_menu_agenda2:hover,
+.btn_menu_agenda2:focus,
+.btn_menu_agenda2:active  {
+	background-image:url(../images/iconografia/agenda/fnd_btn_1_b.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+}
+
+
+.btn_menu_agenda2 {
+	margin-left:-5px;
+	color:#333333;
+}
+
+.agenda_espacio_botones_sup {
+	height:60px;
+	padding-top:10px;
+}
+
+.btn_config_agenda {
+	background-image:url(../images/iconografia/agenda/configuracion_a.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:40px;
+	height:34px;
+	cursor: pointer;
+	position:relative;
+	float:right;
+	margin-right:20px;
+}
+
+.btn_config_agenda:hover,
+.btn_config_agenda:focus,
+.btn_config_agenda:active {
+	background-image:url(../images/iconografia/agenda/configuracion_b.png);
+}
+
+.btn_agenda_editar {
+	background-image:url(../images/iconografia/agenda/ico_editar_a.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+	position:relative;
+	float:right;
+}
+
+.btn_agenda_editar:hover,
+.btn_agenda_editar:focus,
+.btn_agenda_editar:active {
+	background-image:url(../images/iconografia/agenda/ico_editar_b.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+}
+
+.btn_agenda_eliminar {
+	background-image:url(../images/iconografia/agenda/ico_eliminar_a.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+	position:relative;
+	float:right;
+}
+
+.btn_agenda_eliminar:hover,
+.btn_agenda_eliminar:focus,
+.btn_agenda_eliminar:active {
+	background-image:url(../images/iconografia/agenda/ico_eliminar_b.png);
+	background-position:center middle;
+	background-repeat:no-repeat;
+	background-color:none;
+	width:20px;
+	height:20px;
+	cursor: pointer;
+}
+
+.btn_agenda_espacio1 {
+	width:20px;
+	height:20px;
+}
+
+.agenda_sem_siguiente {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/agenda/bullet_rosa_der_a.png);
+	cursor:pointer;
+	position:relative;
+	float: right;
+}
+.agenda_sem_siguiente:hover,
+.agenda_sem_siguiente:active,
+.agenda_sem_siguiente:focus {
+	background-image:url(../images/iconografia/agenda/bullet_rosa_der_b.png);
+}
+
+.agenda_sem_anterior {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/agenda/bullet_rosa_izq_a.png);
+	cursor:pointer;
+	position:relative;
+	float: right;
+}
+.agenda_sem_anterior:hover,
+.agenda_sem_anterior:active,
+.agenda_sem_anterior:focus {
+	background-image:url(../images/iconografia/agenda/bullet_rosa_izq_b.png);
+}
+
+.btn_accion_encabezado {
+	background-image:url(../images/iconografia/agenda/fnd_btn_1_a.png);
+	background-position:bottom;
+	background-repeat:repeat-x;
+	color:#333333;
+	font-size:11px;
+	padding:3px;
+	font-style:italic;
+}
+
+.btn_accion_encabezado:hover,
+.btn_accion_encabezado:focus,
+.btn_accion_encabezado:active {
+	background-image:url(../images/iconografia/agenda/fnd_btn_1_b.png);
+}
+
+
+
+
+@media (max-width: 767px) {
+
+
+}
+
+@media (min-width: 768px) {
+
+
+
+}

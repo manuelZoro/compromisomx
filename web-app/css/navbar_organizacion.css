@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+.opcionmenu {
+	min-height: 1px;
+	float: right;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:92px;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-right:5px;
+	line-height:46px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+.opcionmenu : hover
+.opcionmenu : active,
+.opcionmenu : focus,{
+	background-position:center;
+	background-repeat:no-repeat;
+	background:url(../images/iconografia/navbar/opcion_hover.png);
+}
+
+.opcionmenu {
+	min-height: 1px;
+	float: right;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	height:92px;
+	text-align:center;
+	padding-top:0px;
+	padding-bottom:0px;
+	margin-right:5px;
+	line-height:46px;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+
+.opcionmenu > a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+

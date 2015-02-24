@@ -1,0 +1,21 @@
+<div class="col-md-personalizada_2 medida_cont_agenda_2">			
+	<div class="cal-row-fluid cal-row-head">
+		<% _.each(months, function(name){ %>
+			<div class="agenda_calgde_diasemana"><%= name %></div>
+		<% }) %>
+	</div>
+	<div class="">
+		<% for(i = 0; i < 6; i++) { %>
+			<% if(cal.stop_cycling == true) break; %>
+			<div class="cal-row-fluid cal-before-eventlist">
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day1" onClick=""><%= cal._day(i, day++) %></div>
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day2" onClick=""><%= cal._day(i, day++) %></div>
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day3" onClick=""><%= cal._day(i, day++) %></div>
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day4" onClick=""><%= cal._day(i, day++) %></div>
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day5" onClick=""><%= cal._day(i, day++) %></div>
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day6" onClick=""><%= cal._day(i, day++) %></div>
+				<div id="" class="agenda_calgde_dia_activo" data-cal-row="-day7" onClick=""><%= cal._day(i, day++) %></div>
+			</div>
+		<% } %>
+	</div>
+</div>

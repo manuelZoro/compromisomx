@@ -1,0 +1,2000 @@
+@CHARSET "ISO-8859-1";
+
+
+.btn_nvocorreo {
+	padding-left: 10px;
+	padding-right: 10px;
+	color:#333333;
+	text-align:center;
+}
+
+.col_mensajes_1_a { width: 2.40%; float:left; position:relative; text-align:left; }
+.col_mensajes_1_b { width: 9.10%; float:left; position:relative; text-align:left; }
+.col_mensajes_1_c { width: 16.1%; float:left; position:relative; text-align:left; }
+.col_mensajes_1_d { width: 17.4%; float:left; position:relative; text-align:left; }
+.col_mensajes_1_e { width: 46.0%; float:left; position:relative; text-align:left; }
+.col_mensajes_1_f { width: 9.0%; float:left; position:relative; text-align:left; }
+
+.col_mensajes_2_a { 
+	width: 2.4%;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding-top:8px;
+}
+
+.col_mensajes_2_b {
+	width: 2.4%;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.col_mensajes_2_c {
+	width: 19.8%;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.col_mensajes_2_c > a {
+	color:#333333;
+}
+
+.col_mensajes_2_c > a:hover,
+.col_mensajes_2_c > a:focus,
+.col_mensajes_2_c > a:active {
+	color:#921059;
+	text-decoration:underline;
+}
+
+.col_mensajes_2_d {
+	width: 48.8%;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.col_mensajes_2_e {
+	width: 14.6%;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.col_mensajes_2_f {
+	width: 3.0%;
+	float:left;
+	position:relative;
+	text-align:left;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+
+.col_mensajes_2_g {
+	width: 3.0%;
+	float:left;
+	position:relative;
+	text-align:left;
+}
+
+.col_mensajes_2_h {
+	width: 3.0%;
+	float:left;
+	position:relative;
+	text-align:left;
+}
+
+.col_mensajes_2_i {
+	width: 3.0%;
+	float:left;
+	position:relative;
+	text-align:left;
+}
+
+.fila_mensaje_correo {
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#E6E6E6;
+	min-height:36px;
+	color:#666666;
+}
+
+.fila_mensaje_correo:hover,
+.fila_mensaje_correo:focus,
+.fila_mensaje_correo:active {
+	background-color:#E2E2E2;
+}
+
+.fila_correo_seleccionado {
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#E6E6E6;
+	min-height:36px;
+	color:#666666;
+	background-color:#f5f6c5;
+}
+
+.fila_correo_seleccionado:hover,
+.fila_correo_seleccionado:focus,
+.fila_correo_seleccionado:active {
+	background-color:#f0f1b2;
+}
+
+
+
+.msj_btn_alerta {
+	float:left;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../images/iconografia/mensajeria/alerta_normal.png);
+	width:30px;
+	height:36px;
+}
+
+.msj_btn_alerta:hover,
+.msj_btn_alerta:focus,
+.msj_btn_alerta:active {
+	background-image:url(../images/iconografia/mensajeria/alerta_hover.png);
+	cursor:pointer;
+}
+
+.msj_btn_relevante {
+	float:left;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../images/iconografia/mensajeria/relevante_normal.png);
+	width:30px;
+	height:36px;
+}
+
+.msj_btn_relevante:hover,
+.msj_btn_relevante:focus,
+.msj_btn_relevante:active {
+	background-image:url(../images/iconografia/mensajeria/relevante_hover.png);
+	cursor:pointer;
+}
+
+
+
+
+.msj_btn_mensaje {
+	float:left;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../images/iconografia/mensajeria/mensaje_normal.png);
+	width:30px;
+	height:36px;
+}
+
+.msj_btn_mensaje:hover,
+.msj_btn_mensaje:focus,
+.msj_btn_mensaje:active {
+	background-image:url(../images/iconografia/mensajeria/mensaje_hover.png);
+	cursor:pointer;
+}
+
+.msj_btn_borrar {
+	float:left;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../images/iconografia/mensajeria/borrar_normal.png);
+	width:30px;
+	height:36px;
+}
+
+.msj_btn_borrar:hover,
+.msj_btn_borrar:focus,
+.msj_btn_borrar:active {
+	background-image:url(../images/iconografia/mensajeria/borrar_hover.png);
+	cursor:pointer;
+}
+
+.msj_nuevo {
+	font-weight:bold;
+}
+
+.msj_leido {
+	font-weight:400;
+}
+
+.msj_prev_asunto {
+	color:#333333;
+	float:left;
+	position:relative;
+}
+
+.msj_prev_contenido {
+	color:#999999;
+	float:left;
+	position:relative;
+}
+
+.msj_carpetas {
+	color:#CCCCCC;
+}
+
+.msj_carp_actual {
+	line-height:24px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.msj_carp_contacto {
+	line-height:18px;
+	padding-top:3px;
+	padding-bottom:3px;
+	font-style:italic;
+	color:#666666;
+}
+
+.msj_carp_contacto > a {
+	color:#666666;
+}
+
+.msj_carp_contacto > a:hover,
+.msj_carp_contacto > a:active,
+.msj_carp_contacto > a:focus {
+	color:#921059;
+	text-decoration:underline;
+}
+
+
+.msj_carp {
+	line-height:20px;
+	color:#666666;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.msj_carp > a {
+	color:#333333;
+}
+
+.msj_carp > a:hover,
+.msj_carp > a:active,
+.msj_carp > a:focus {
+	color:#921059;
+	text-decoration:underline;
+}
+
+.msj_carp_actual > a {
+	color:#666666;
+}
+
+.msj_carp_actual > a:hover,
+.msj_carp_actual > a:active,
+.msj_carp_actual > a:focus {
+	color:#921059;
+	text-decoration:underline;
+}
+
+.buscar {
+	padding-top:3px;
+}
+
+.bloque{
+	position:relative;
+	float:left;
+}
+
+.campo_buscar {
+	color:#333333;
+	background-color:#CCCCCC;
+	border-radius: 25px;
+	font-size:12px;
+	font-style:italic;
+	float:left;
+	position:relative;
+	width:150px;
+	padding-right:40px;
+}
+
+.btn_buscarmsj {
+	background-image:url(../images/iconografia/mensajeria/img_buscar_normal.png);
+	float:left;
+	position:absolute;
+	width:26px;
+	height:26px;
+	background-position:center;
+	background-repeat:no-repeat;
+	left:123px;
+	top:5px;
+}
+
+.btn_buscarmsj:hover,
+.btn_buscarmsj:focus,
+.btn_buscarmsj:active {
+	background-image:url(../images/iconografia/mensajeria/img_buscar_hover.png);
+	cursor:pointer;
+}
+
+.cajaseleccionatodo {
+	float:left;
+	position:relative;
+	width:40px;	
+	height:30px;
+	padding-top:7px;
+	text-align:right;
+	margin-right:-10px;
+	z-index:9;
+}
+
+.cajaboton_1 {
+	float:left;
+	position:relative;
+	width:99px;
+	margin-right:5px;
+}
+
+.cajaboton_2 {
+	float:left;
+	position:relative;
+	width:141px;
+	margin-right:5px;
+}
+
+.cajaboton_3 {
+	float:left;
+	position:relative;
+	width:76px;
+	margin-right:5px;
+}
+
+.cajaboton_4 {
+	float:left;
+	position:relative;
+	width:100px;
+	margin-right:5px;
+}
+
+.cajaboton_5 {
+	float:left;
+	position:relative;
+	width:62px;
+	margin-right:5px;
+}
+
+.cajaboton_6 {
+	float:left;
+	position:relative;
+	width:155px;
+}
+
+
+#redactar_msj {
+	width:500px;
+	height:300px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC;
+	float:left;
+	position:relative;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	float:left;
+	top:-300px;
+	right:-10px;
+	display:none;
+}
+
+.rdcta_msj_tit {
+	text-align:left;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	min-height:32px;
+	background-color:#921059;
+	position:relative;
+	line-height:32px;
+	padding-left:7px;
+	padding-right:5px;
+}
+
+.rdcta_msj_controles {
+	background-color:#F0F0F0;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+
+.rdcta_msj_menuventana {
+	text-align:right;
+	color:#FFFFFF;
+	font-size:12px;
+	font-weight:bold;
+	min-height:32px;
+	background-color:#921059;
+}
+
+.rdcta_msj_menuventana_cerrar {
+	height:32px;
+	width:16px;
+	background-image:url(../images/iconografia/mensajeria/btn_cerrar_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#921059;
+	position:relative;
+	float:left;
+}
+
+.rdcta_msj_menuventana_cerrar:hover,
+.rdcta_msj_menuventana_cerrar:focus,
+.rdcta_msj_menuventana_cerrar:active {
+	background-image:url(../images/iconografia/mensajeria/btn_cerrar_hover.png);
+	cursor:pointer;
+}
+
+.rdcta_msj_menuventana_minimizar {
+	height:32px;
+	width:16px;
+	background-image:url(../images/iconografia/mensajeria/btn_minimizar_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#921059;
+	position:relative;
+	float:left;
+}
+
+.rdcta_msj_menuventana_minimizar:hover,
+.rdcta_msj_menuventana_minimizar:focus,
+.rdcta_msj_menuventana_minimizar:active {
+	background-image:url(../images/iconografia/mensajeria/btn_minimizar_hover.png);
+	cursor:pointer;
+}
+
+.rdcta_msj_agregar {
+	height:32px;
+	width:16px;
+	background-image:url(../images/iconografia/mensajeria/btn_agregar_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:right;
+}
+
+.rdcta_msj_agregar:hover,
+.rdcta_msj_agregar:focus,
+.rdcta_msj_agregar:active {
+	background-image:url(../images/iconografia/mensajeria/btn_agregar_hover.png);
+	cursor:pointer;
+}
+
+.fnd_rosa {
+	background-color:#921059;
+}
+
+.rdcta_msj_menuventana_para {
+	text-align:left;
+	color:#333333;
+	font-size:11px;
+	min-height:32px;
+	overflow:auto;
+	background-color:#ffffff;
+	position:relative;
+	line-height:32px;
+	padding-left:7px;
+	padding-right:7px;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+
+.cerrardestcorreo {
+	width:9px;
+	height:9px;
+	background:url(../images/iconografia/organizacion/botones/cerrarmodal.png);
+	background-color:#F8F8F8;
+	position:absolute;
+	top:-3px;
+	right:-3px;
+	border:#CCCCCC;
+	border-width:1px;
+	border-style:solid;
+	z-index:2;
+}
+
+.cerrardestcorreo:hover,
+.cerrardestcorreo:focus,
+.cerrardestcorreo:active {
+	cursor:pointer;
+}
+
+.destcorreo {
+	background-color:#F8F8F8;
+	border-width:1px;
+	border-style:solid;
+	border-color:#cccccc;
+	color:#333333;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:3px;
+	padding-right:3px;
+	position:relative;
+	float:left;
+	margin-top:5px;
+	margin-bottom:4px;
+	margin-right:5px;
+	margin-left:0px;
+	line-height:10px;
+	font-size:10px;
+}
+
+.rdcta_msj_menuventana_asunto {
+	overflow:auto;
+	background-color:#ffffff;
+	position:relative;
+	padding-left:7px;
+	padding-right:7px;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	text-align:left;
+	color:#333333;
+	font-size:11px;
+	min-height:32px;
+	line-height:32px;
+}
+
+.ingresa_asunto {
+	text-align:left;
+	color:#333333;
+	font-size:11px;
+	min-height:32px;
+	line-height:32px;
+	border:none;
+	background:#FFFFFF;
+	width:100%;
+	height:30px;
+}
+
+.redacta_mensaje{
+	height:auto;
+	overflow:auto;
+	background:#FFFFFF;
+	text-align:left;
+	color:#333333;
+	font-size:12px;
+	line-height:16px;
+	height:168px;
+	padding:10px;
+	border-bottom-color:#CCCCCC;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+}
+
+.controles_mensaje {
+	background:#CCCCCC;
+}
+
+.btn_enviarmensaje {
+	background-color:#921059;
+	color:#FFFFFF;
+	font-size:11px;
+	font-weight:bold;
+	text-align:center;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:10px;
+	padding-right:10px;
+	margin:2px;
+	float:left;
+}
+
+.btn_enviarmensaje:hover,
+.btn_enviarmensaje:focus,
+.btn_enviarmensaje:active {
+	background-color:#b61b72;
+	color:#FFFFFF;
+}
+
+.btn_formatotexto {
+	background-image:url(../images/iconografia/mensajeria/btn_formatotexto_normal.png);
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.btn_formatotexto:hover,
+.btn_formatotexto:focus,
+.btn_formatotexto:active {
+	background-image:url(../images/iconografia/mensajeria/btn_formatotexto_hover.png);
+	cursor:pointer;
+}
+
+.btn_msjalerta {
+	background-image:url(../images/iconografia/mensajeria/btn_alerta_normal.png);
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.btn_msjalerta:hover,
+.btn_msjalerta:focus,
+.btn_msjalerta:active {
+	background-image:url(../images/iconografia/mensajeria/btn_alerta_hover.png);
+	cursor:pointer;
+}
+
+.msj_estado_borrar {
+	float:right;
+	position:relative;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-image:url(../images/iconografia/mensajeria/borrar_normal.png);
+	width:24px;
+	height:24px;
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:4px;
+	margin-bottom:4px;
+}
+
+.msj_estado_borrar:hover,
+.msj_estado_borrar:focus,
+.msj_estado_borrar:active {
+	background-image:url(../images/iconografia/mensajeria/borrar_hover.png);
+	cursor:pointer;
+}
+
+.msj_estado {
+	float:right;
+	position:relative;
+	line-height:23px;
+	font-size:11px;
+	color:#999999;
+	margin-left:3px;
+	margin-right:3px;
+	margin-top:4px;
+	margin-bottom:4px;
+	height:24px;
+}
+
+.separador1 {
+	width:7px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/separador1.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-left:4px;
+	margin-right:4px;
+}
+
+#msj_opcionesformatotexto {
+	border:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	padding:3px;
+	position:absolute;
+	top:-30px;
+	left:-20px;
+	background-color:#F8F8F8;
+	width:442px;
+	box-shadow: 0 3px 5px 0px #c5c5c5;
+	display:none;
+}
+
+.btn_despliegalista {
+	width:10px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_despliegalista_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:4px;
+}
+
+.btn_despliegalista:hover,
+.btn_despliegalista:focus,
+.btn_despliegalista:active {
+	background-image:url(../images/iconografia/mensajeria/btn_despliegalista_hover.png);
+	cursor:pointer;
+}
+
+.formatotextofuente {
+	width:100px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	font-size:11px;
+	line-height:14px;
+	color:#666666;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	padding:3px;
+}
+
+#despliega_listado_fuentes {
+	width:130px;
+	height:105px;
+	position:absolute;
+	background-color:#F9F9F9;
+	font-size:11px;
+	line-height:14px;
+	color:#666666;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	padding:3px;
+	box-shadow: 0 3px 5px 0px #c5c5c5;
+	overflow:auto;
+	overflow-x: hidden;
+	float:left;
+	top:-110px;
+	left:-15px;
+	z-index:1;
+	padding-right:4px;
+	display:none;
+}
+
+.listado_fuentes_opcion {
+	min-width:100px;
+	width:121px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	font-size:11px;
+	line-height:14px;
+	color:#666666;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	padding:3px;
+}
+
+
+.listado_fuentes_opcion:hover,
+.listado_fuentes_opcion:focus,
+.listado_fuentes_opcion:active {
+	background-color:#E0E0E0;
+	cursor:pointer;
+}
+
+
+.tamanotextofuente {
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	background-image:url(../images/iconografia/mensajeria/btn_tamanoletra.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+#despliega_tamano_fuentes {
+	width:70px;
+	height:105px;
+	position:absolute;
+	background-color:#F9F9F9;
+	line-height:14px;
+	color:#666666;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	padding:3px;
+	box-shadow: 0 3px 5px 0px #c5c5c5;
+	overflow:auto;
+	overflow-x: hidden;
+	float:left;
+	top:-110px;
+	left:90px;
+	z-index:1;
+	padding-right:4px;
+	display:none;
+	
+}
+
+.tamano_fuentes_opcion {
+	width:55px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	line-height:14px;
+	color:#666666;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	padding:3px;
+}
+
+
+.tamano_fuentes_opcion:hover,
+.tamano_fuentes_opcion:focus,
+.tamano_fuentes_opcion:active {
+	background-color:#E0E0E0;
+	cursor:pointer;
+}
+
+
+.tamano_fuente_1 {
+	font-size:10px;
+}
+.tamano_fuente_2 {
+	font-size:12px;
+}
+.tamano_fuente_3 {
+	font-size:14px;
+}
+.tamano_fuente_4 {
+	font-size:16px;
+}
+.tamano_fuente_5 {
+	font-size:18px;
+}
+
+
+
+.btn_textobold {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_bold_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:2px;
+}
+
+.btn_textobold:hover,
+.btn_textobold:focus,
+.btn_textobold:active {
+	background-image:url(../images/iconografia/mensajeria/btn_bold_hover.png);
+	cursor:pointer;
+}
+
+.btn_textoitalica {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_italica_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:2px;
+}
+
+.btn_textoitalica:hover,
+.btn_textoitalica:focus,
+.btn_textoitalica:active {
+	background-image:url(../images/iconografia/mensajeria/btn_italica_hover.png);
+	cursor:pointer;
+}
+
+.btn_textounderline {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_underline_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:2px;
+}
+
+.btn_textounderline:hover,
+.btn_textounderline:focus,
+.btn_textounderline:active {
+	background-image:url(../images/iconografia/mensajeria/btn_underline_hover.png);
+	cursor:pointer;
+}
+
+.colortextofuente {
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	background-image:url(../images/iconografia/mensajeria/btn_textocolor.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#despliega_colortextofuente {
+	width:128px;
+	height:32px;
+	position:absolute;
+	box-shadow: 0 3px 5px 0px #c5c5c5;
+	float:left;
+	top:-38px;
+	left:200px;
+	display:none;
+	background-color:#FFFFFF;
+	z-index:5;
+}
+
+
+.opcion_color {
+	width:14px;
+	height:14px;
+	margin:1px;
+	z-index:1;
+	position:relative;
+	float:left;
+	border-style:solid;
+	border-width:1px;
+}
+
+.opcion_color:hover,
+.opcion_color:focus,
+.opcion_color:active {
+	z-index:5;
+	cursor:pointer;
+}
+
+.opcion_color_navy {
+	background-color:#000080;
+	border-color:#040450;
+}
+
+.opcion_color_blue {
+	background-color:#0000ff;
+	border-color:#0b0bb4;
+}
+
+.opcion_color_teal {
+	background-color:#008080;
+	border-color:#085151;
+}
+
+.opcion_color_aqua {
+	background-color:#00ffff;
+	border-color:#097f7f;
+}
+
+.opcion_color_olive {
+	background-color:#808000;
+	border-color:#575708;
+}
+
+.opcion_color_green {
+	background-color:#008000;
+	border-color:#054805;
+}
+
+.opcion_color_lime {
+	background-color:#00ff00;
+	border-color:#0cbf0c;
+}
+
+.opcion_color_yellow {
+	background-color:#ffff00;
+	border-color:#b0b00e;
+}
+
+.opcion_color_red {
+	background-color:#ff0000;
+	border-color:#b80c0c;
+}
+
+.opcion_color_maroon {
+	background-color:#800000;
+	border-color:#470303;
+}
+
+.opcion_color_purple {
+	background-color:#800080;
+	border-color:#520552;
+}
+
+.opcion_color_fuchsia {
+	background-color:#ff00ff;
+	border-color:#a210a2;
+}
+
+.opcion_color_white {
+	background-color:#ffffff;
+	border-color:#848484;
+}
+
+.opcion_color_silver {
+	background-color:#c0c0c0;
+	border-color:#848484;
+}
+
+.opcion_color_gray {
+	background-color:#808080;
+	border-color:#454545;
+}
+
+.opcion_color_black {
+	background-color:#000000;
+	border-color:#000000;
+}
+
+.opcion_color_navy:hover,
+.opcion_color_navy:focus,
+.opcion_color_navy:active {
+	box-shadow: 0px 0px 5px 0px #000080;
+}
+
+.opcion_color_blue:hover,
+.opcion_color_blue:focus,
+.opcion_color_blue:active {
+	box-shadow: 0px 0px 5px 0px #0000ff;
+}
+
+.opcion_color_teal:hover,
+.opcion_color_teal:focus,
+.opcion_color_teal:active {
+	box-shadow: 0px 0px 5px 0px #008080;
+}
+
+.opcion_color_aqua:hover,
+.opcion_color_aqua:focus,
+.opcion_color_aqua:active {
+	box-shadow: 0px 0px 5px 0px #00ffff;
+}
+
+.opcion_color_olive:hover,
+.opcion_color_olive:focus,
+.opcion_color_olive:active {
+	box-shadow: 0px 0px 5px 0px #808000;
+}
+
+.opcion_color_green:hover,
+.opcion_color_green:focus,
+.opcion_color_green:active {
+	box-shadow: 0px 0px 5px 0px #008000;
+}
+
+.opcion_color_lime:hover,
+.opcion_color_lime:focus,
+.opcion_color_lime:active {
+	box-shadow: 0px 0px 5px 0px #00ff00;
+}
+
+.opcion_color_yellow:hover,
+.opcion_color_yellow:focus,
+.opcion_color_yellow:active {
+	box-shadow: 0px 0px 5px 0px #ffff00;
+}
+
+.opcion_color_red:hover,
+.opcion_color_red:focus,
+.opcion_color_red:active {
+	box-shadow: 0px 0px 5px 0px #ff0000;
+}
+
+.opcion_color_maroon:hover,
+.opcion_color_maroon:focus,
+.opcion_color_maroon:active {
+	box-shadow: 0px 0px 5px 0px #800000;
+}
+
+.opcion_color_purple:hover,
+.opcion_color_purple:focus,
+.opcion_color_purple:active {
+	box-shadow: 0px 0px 5px 0px #800080;
+}
+
+.opcion_color_fuchsia:hover,
+.opcion_color_fuchsia:focus,
+.opcion_color_fuchsia:Active {
+	box-shadow: 0px 0px 5px 0px #ff00ff;
+}
+
+.opcion_color_white:hover,
+.opcion_color_white:focus,
+.opcion_color_white:active {
+	box-shadow: 0px 0px 5px 0px #ffffff;
+}
+
+.opcion_color_silver:hover,
+.opcion_color_silver:focus,
+.opcion_color_silver:active {
+	box-shadow: 0px 0px 5px 0px #c0c0c0;
+}
+
+.opcion_color_gray:hover,
+.opcion_color_gray:focus,
+.opcion_color_gray:active {
+	box-shadow: 0px 0px 5px 0px #808080;
+}
+
+.opcion_color_black:hover,
+.opcion_color_black:focus,
+.opcion_color_black:active {
+	box-shadow: 0px 0px 5px 0px #000000;
+}
+
+
+
+.btn_textolista {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_lista_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:2px;
+}
+
+.btn_textolista:hover,
+.btn_textolista:focus,
+.btn_textolista:active {
+	background-image:url(../images/iconografia/mensajeria/btn_lista_hover.png);
+	cursor:pointer;
+}
+
+.btn_textobullet {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_bullets_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:2px;
+}
+
+.btn_textobullet:hover,
+.btn_textobullet:focus,
+.btn_textobullet:active {
+	background-image:url(../images/iconografia/mensajeria/btn_bullets_hover.png);
+	cursor:pointer;
+}
+
+.alineaciontextofuente {
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	background-image:url(../images/iconografia/mensajeria/btn_alineacionizq.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.alineaciontextoizq {
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	background-image:url(../images/iconografia/mensajeria/btn_alineacionizq.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:1px;
+}
+
+.alineaciontextocen {
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	background-image:url(../images/iconografia/mensajeria/btn_alineacioncen.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:1px;
+}
+
+.alineaciontextoder {
+	width:24px;
+	height:24px;
+	position:relative;
+	float:left;
+	background-color:#F9F9F9;
+	border-style:solid;
+	border-width:1px;
+	border-color:#E9E9E9;
+	background-image:url(../images/iconografia/mensajeria/btn_alineacionder.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding:1px;
+}
+
+.alineaciontextoizq:hover,
+.alineaciontextoizq:focus,
+.alineaciontextoizq:active {
+	border-color:#999999;
+	cursor:pointer;
+	background-color:#CCCCCC;
+}
+
+.alineaciontextocen:hover,
+.alineaciontextocen:focus,
+.alineaciontextocen:active {
+	border-color:#999999;
+	cursor:pointer;
+	background-color:#CCCCCC;
+}
+
+.alineaciontextoder:hover,
+.alineaciontextoder:focus,
+.alineaciontextoder:active {
+	border-color:#999999;
+	cursor:pointer;
+	background-color:#CCCCCC;
+}
+
+
+#despliega_alineaciontexto {
+	width:72px;
+	height:24px;
+	position:absolute;
+	box-shadow: 0 3px 5px 0px #c5c5c5;
+	float:left;
+	top:-25px;
+	left:330px;
+	display:none;
+	background-color:#FFFFFF;
+	z-index:5;
+}
+
+
+
+.btn_subindice {
+	width:24px;
+	height:24px;
+	background-image:url(../images/iconografia/mensajeria/btn_subindice_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:2px;
+}
+
+.btn_subindice:hover,
+.btn_subindice:focus,
+.btn_subindice:active {
+	background-image:url(../images/iconografia/mensajeria/btn_subindice_hover.png);
+	cursor:pointer;
+}
+
+
+.mensaje_busqueda {
+	font-style:italic;
+	line-height:36px;
+}
+
+.pager_izq_activo {
+	width:36px;
+	height:30px;
+	background-image:url(../images/iconografia/mensajeria/pager_izq_activo_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+}
+
+.pager_izq_activo:hover,
+.pager_izq_activo:focus,
+.pager_izq_activo:active {
+	background-image:url(../images/iconografia/mensajeria/pager_izq_activo_hover.png);
+	cursor:pointer;
+}
+
+.pager_der_activo {
+	width:36px;
+	height:30px;
+	background-image:url(../images/iconografia/mensajeria/pager_der_activo_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+}
+
+.pager_der_activo:hover,
+.pager_der_activo:focus,
+.pager_der_activo:active {
+	background-image:url(../images/iconografia/mensajeria/pager_der_activo_hover.png);
+	cursor:pointer;
+}
+
+.pager_izq_inactivo {
+	width:36px;
+	height:30px;
+	background-image:url(../images/iconografia/mensajeria/pager_izq_inactivo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:right;
+}
+
+.pager_der_inactivo {
+	width:36px;
+	height:30px;
+	background-image:url(../images/iconografia/mensajeria/pager_der_inactivo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+}
+
+.indicador_paginacion {
+	line-height:28px;
+}
+
+.pager_primero {
+	width:27px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_primero_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-top:7px;
+}
+
+.pager_anterior {
+	width:23px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_anterior_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:5px;
+	margin-top:7px;
+}
+
+.pager_siguiente {
+	width:23px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_siguiente_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+}
+
+.pager_ultimo {
+	width:27px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_ultimo_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-top:7px;
+}
+
+.pager_primero:hover,
+.pager_primero:focus,
+.pager_primero:active {
+	background-image:url(../images/iconografia/mensajeria/pager_primero_hover.png);
+	cursor:pointer;
+}
+
+.pager_anterior:hover,
+.pager_anterior:focus,
+.pager_anterior:active {
+	background-image:url(../images/iconografia/mensajeria/pager_anterior_hover.png);
+	cursor:pointer;
+}
+
+.pager_siguiente:hover,
+.pager_siguiente:focus,
+.pager_siguiente:active {
+	background-image:url(../images/iconografia/mensajeria/pager_siguiente_hover.png);
+	cursor:pointer;
+}
+
+.pager_ultimo:hover,
+.pager_ultimo:focus,
+.pager_ultimo:active {
+	background-image:url(../images/iconografia/mensajeria/pager_ultimo_hover.png);
+	cursor:pointer;
+}
+
+.pager_primero_inactivo {
+	width:27px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_primero_inactivo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-top:7px;
+}
+
+.pager_anterior_inactivo {
+	width:23px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_anterior_inactivo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-right:5px;
+	margin-top:7px;
+}
+
+.pager_siguiente_inactivo {
+	width:23px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_siguiente_inactivo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-left:5px;
+	margin-top:7px;
+}
+
+.pager_ultimo_inactivo {
+	width:27px;
+	height:14px;
+	background-image:url(../images/iconografia/mensajeria/pager_ultimo_inactivo.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:left;
+	margin-top:7px;
+}
+
+
+#escoge_contacto {
+	width:280px;
+	height:175px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC;
+	float:left;
+	position:relative;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	float:left;
+	top:35px;
+	left:215px;
+	z-index:6;
+	background:#F8F8F8;
+	display:none;
+}
+
+.escoge_contacto_tit {
+	text-align:left;
+	color:#FFFFFF;
+	font-size:10px;
+	font-weight:bold;
+	min-height:24px;
+	background-color:#921059;
+	position:relative;
+	line-height:24px;
+	padding-left:7px;
+	padding-right:5px;
+}
+
+.escoge_contacto_menuventana_cerrar {
+	height:24px;
+	width:16px;
+	background-image:url(../images/iconografia/mensajeria/btn_cerrar_contacto_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-color:#921059;
+	position:relative;
+	float:right;
+}
+
+.escoge_contacto_menuventana_cerrar:hover,
+.escoge_contacto_menuventana_cerrar:focus,
+.escoge_contacto_menuventana_cerrar:active {
+	background-image:url(../images/iconografia/mensajeria/btn_cerrar_contacto_hover.png);
+	cursor:pointer;
+}
+
+.lista_contactos {
+	padding:5px;
+	overflow:auto;
+	overflow-x: hidden;
+	height:113px;
+	float:left;
+	width:280px;
+}
+
+.selecciona_todos_contactos {
+	color:#333333;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-left:3px;
+	padding-right:3px;
+	line-height:20px;
+	font-size:10px;
+	font-weight:bold;
+}
+
+.elemento_contacto {
+	color:#333333;
+	padding-top:1px;
+	padding-bottom:1px;
+	padding-left:3px;
+	padding-right:3px;
+	font-size:10px;
+}
+
+.elemento_contacto:hover,
+.elemento_contacto:focus,
+.elemento_contacto:active {
+	background-color:#EBEBEB;
+}
+
+
+.selecciona_elemento_contacto {
+	padding-top:3px;
+	margin-top:-5px;
+	margin-bottom:-2px;
+}
+
+.contenedor_mensajes {
+	overflow-x: hidden;
+	overflow-y: auto;
+	min-height: 0.01%;
+	min-width: 0.01%;
+}
+
+#despliega_mostrar {
+	min-width:100px;
+	max-width:160px;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	z-index:6;
+	background-color:#F5F5F5;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	top:42px;
+	left:55px;
+	display:none;
+}
+
+.despliega_mostrar_opcion {
+	min-height: 28px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:6px;
+	color:#333333;
+	font-size:13px;
+	overflow:auto;
+}
+
+.despliega_mostrar_opcion:hover,
+.despliega_mostrar_opcion:focus,
+.despliega_mostrar_opcion:active {
+	background-color:#E6E6E6;
+	cursor:pointer;
+}
+
+#despliega_movera {
+	min-width:100px;
+	max-width:160px;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	z-index:6;
+	background-color:#F5F5F5;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	top:42px;
+	left:280px;
+	display:block;
+}
+#despliega_movera_ayuda {
+	min-width:100px;
+	max-width:160px;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	z-index:6;
+	background-color:#F5F5F5;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	top:42px;
+	left:135px;
+	display:none;
+}
+
+.despliega_movera_opcion {
+	min-height: 28px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:6px;
+	color:#333333;
+	font-size:13px;
+	overflow:auto;
+}
+#despliega_marcarcomo_ayuda {
+	width:100px;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	z-index:6;
+	background-color:#F5F5F5;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	top:42px;
+	left:215px;
+	display:none;
+}
+
+.despliega_movera_opcion:hover,
+.despliega_movera_opcion:focus,
+.despliega_movera_opcion:active {
+	background-color:#E6E6E6;
+	cursor:pointer;
+}
+
+#nueva_carpeta {
+	display:none;
+}
+
+#despliega_organizar {
+	min-width:100px;
+	max-width:160px;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	z-index:6;
+	background-color:#F5F5F5;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	top:45px;
+	right:15px;
+	display:none;
+}
+
+.despliega_organizar_opcion {
+	min-height: 28px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:6px;
+	color:#333333;
+	font-size:13px;
+	overflow:auto;
+}
+
+.despliega_organizar_opcion:hover,
+.despliega_organizar_opcion:focus,
+.despliega_organizar_opcion:active {
+	background-color:#E6E6E6;
+	cursor:pointer;
+}
+
+.btn_ascendente {
+	width:12px;
+	height:18px;
+	padding-top:4px;
+	padding-bottom:6px;
+	background-image:url(../images/iconografia/mensajeria/ascendente_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:right;
+}
+.btn_ascendente:hover,
+.btn_ascendente:focus,
+.btn_ascendente:active {
+	background-image:url(../images/iconografia/mensajeria/ascendente_hover.png);
+	cursor:pointer;
+}
+
+.btn_descendente {
+	width:12px;
+	height:18px;
+	padding-top:4px;
+	padding-bottom:6px;
+	background-image:url(../images/iconografia/mensajeria/descendente_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+	float:right;
+}
+.btn_descendente:hover,
+.btn_descendente:focus,
+.btn_descendente:active {
+	background-image:url(../images/iconografia/mensajeria/descendente_hover.png);
+	cursor:pointer;
+}
+
+.linea_menu {
+	height:5px;
+	background-image:url(../images/iconografia/mensajeria/lineamenu.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.btn_ok_peq {
+	width:22px;
+	height:22px;
+	position:relative;
+	float:right;
+	background-image:url(../images/iconografia/mensajeria/btn_ok_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.btn_ok_peq:hover,
+.btn_ok_peq:active,
+.btn_ok_peq:focus {
+	background-image:url(../images/iconografia/mensajeria/btn_ok_hover.png);
+	cursor:pointer;
+}
+
+#despliega_marcarcomo {
+	width:100px;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	z-index:6;
+	background-color:#F5F5F5;
+	border-color:#CCCCCC;
+	border-style:solid;
+	border-width:1px;
+	top:42px;
+	left:362px;
+	display:none;
+}
+
+.despliega_marcarcomo_opcion {
+	min-height: 28px;
+	padding-left:4px;
+	padding-right:4px;
+	padding-top:4px;
+	padding-bottom:6px;
+	color:#333333;
+	font-size:13px;
+	overflow:auto;
+}
+
+.despliega_marcarcomo_opcion:hover,
+.despliega_marcarcomo_opcion:focus,
+.despliega_marcarcomo_opcion:active {
+	background-color:#E6E6E6;
+	cursor:pointer;
+}
+
+.info_correo {
+	height:50px;
+}
+
+.cuerpo_correo {
+	padding:10px;
+	overflow:auto;
+	overflow-x: hidden;
+	height:230px;
+}
+
+.img_emprendedor {
+	margin-top:4px;
+}
+
+.crear_nva_carpeta {
+	font-style:italic;
+	color:#666666;
+}
+
+
+.crear_nva_carpeta > a {
+	color:#666666;
+}
+
+.crear_nva_carpeta > a:hover,
+.crear_nva_carpeta > a:active,
+.crear_nva_carpeta > a:focus {
+	color:#921059;
+	text-decoration:underline;
+}
+
+.btn_elimina_carpeta {
+	width:16px;
+	height:16px;
+	position:relative;
+	float:right;
+	background-image:url(../images/iconografia/mensajeria/btn_eliminacarpeta_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+.btn_elimina_carpeta:hover,
+.btn_elimina_carpeta:focus,
+.btn_elimina_carpeta:active {
+	background-image:url(../images/iconografia/mensajeria/btn_eliminacarpeta_hover.png);
+	cursor:pointer;
+}
+
+.carpeta_error {
+	font-size:9px;
+	font-style:italic;
+	line-height:14px;
+	color:#333333;
+}
+
+.listado_carpetas{
+	overflow:auto;
+	overflow-x: hidden;
+	max-height:350px;
+}
+.modal_contacto {
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	background-color:#f5f6c5;
+	height:78px;
+	width:160px;
+	position:absolute;
+	top:10px;
+	left:20px;
+	z-index:10;
+	color:#333333;
+	border-color:#b5b755;
+	border-style:solid;
+	border-width:1px;
+	padding:3px;
+}
+
+.btn_mensajecontacto {
+	position:relative;
+	float:right;
+	width:89px;
+	height:19px;
+	background-image:url(../images/iconografia/mensajeria/img_enviarmensaje_normal.png);
+	background-position:center;
+	background-repeat:no-repeat;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+.btn_mensajecontacto:hover,
+.btn_mensajecontacto:focus,
+.btn_mensajecontacto:active {
+	background-image:url(../images/iconografia/mensajeria/img_enviarmensaje_hover.png);
+	cursor:pointer;
+}
+
+#escoge_dest_emprendedor {
+	width:250px;
+	height:190px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#CCCCCC;
+	float:left;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	position:absolute;
+	bottom:42px;
+	right:183px;
+	z-index:7;
+	background:#F8F8F8;
+	padding:8px;
+	overflow:auto;
+	overflow-x: hidden;
+	display:none;
+}
+
+.clic_para {
+	cursor:pointer;
+}
+
+.elemento_dest_emprendedor {
+	border-style:solid;
+	border-width:1px;
+	border-color:#EEEEEE;
+	height:60px;
+}
+
+.elemento_dest_emprendedor:hover,
+.elemento_dest_emprendedor:focus,
+.elemento_dest_emprendedor:active {
+	background-color:#EBEBEB;
+	cursor:pointer;
+}
+
+#mensaje_eliminacarpeta {
+	z-index:5;
+	position:absolute;
+	top:-30px;
+	left:35px;
+	width:950px;
+	display:none;
+}
+
+.caja_eliminacarpeta {
+	background-color:#f8f6c8;
+	box-shadow: 2px 2px 5px 0px #c5c5c5;
+	padding:5px;
+	font-size:12px;
+	line-height:24px;
+	text-align:left;
+	height:35px;
+}
+
+.btn_confirmaelimina {
+	background-color:#992258;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	float:right;
+	position:relative;
+	width:60px;
+	height:25px;
+	line-height:22px;
+	margin-right:10px;
+	border-radius: 4px;
+	border-color:#5f0930;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0 2px 5px 0px #959465;
+}
+
+.btn_confirmaelimina:hover,
+.btn_confirmaelimina:focus,
+.btn_confirmaelimina:active {
+	background-color:#c44b82;
+	cursor:pointer;
+}
+
+.btn_cancelaelimina {
+	background-color:#be1522;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:12px;
+	text-align:center;
+	float:right;
+	position:relative;
+	width:60px;
+	height:25px;
+	line-height:22px;
+	margin-left:10px;
+	border-radius: 4px;
+	border-color:#8f030e;
+	border-style:solid;
+	border-width:1px;
+	box-shadow: 0 2px 5px 0px #959465;
+}
+
+.btn_cancelaelimina:hover,
+.btn_cancelaelimina:focus,
+.btn_cancelaelimina:active {
+	background-color:#d82d3a;
+	cursor:pointer;
+}
+

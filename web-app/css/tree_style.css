@@ -1,0 +1,568 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+/*=============================COBTROL ZOOM (BOTONES + -)==========================================*/
+.btn_org_grafica {
+	background-image:url(../images/organizacion/grafica_normal.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-color:none;
+	width:36px;
+	height:40px;
+	cursor: pointer;
+	margin-top:8px;
+	position:relative;
+	float:inherit;
+}
+
+.btn_org_grafica:hover,
+.btn_org_grafica:active,
+.btn_org_grafica:focus {
+	background-image:url(../images/organizacion/grafica_hover.png);
+}
+
+.btn_org_reporte {
+	background-image:url(../images/organizacion/reporte_normal.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-color:none;
+	width:36px;
+	height:40px;
+	cursor: pointer;
+	margin-top:8px;
+	position:relative;
+	float:inherit;
+}
+
+.btn_org_reporte:hover,
+.btn_org_reporte:active,
+.btn_org_reporte:focus {
+	background-image:url(../images/organizacion/reporte_hover.png);
+}
+
+.btn_org_futurosemp {
+	background-image:url(../images/organizacion/futuros_emprendedores_normal.png);
+	background-repeat:no-repeat;
+	background-position:center bottom;
+	background-color:none;
+	width:36px;
+	height:40px;
+	cursor: pointer;
+	margin-top:8px;
+	position:relative;
+	float:inherit;
+}
+
+.btn_org_futurosemp:hover,
+.btn_org_futurosemp:active,
+.btn_org_futurosemp:focus {
+	background-image:url(../images/organizacion/futuros_emprendedores_hover.png);
+}
+
+.btn_espacio {
+	width:36px;
+	height:40px;
+	margin-top:8px;
+	position:relative;
+	margin:0 auto;
+	float:inherit;
+}
+
+.contenedor_mapa_principal {
+	width:100%;
+	box-shadow: 0 0 8px 0px #c5c5c5;
+	padding:3px;
+	border-color:#c5c5c5;
+	border-style:solid;
+	border-width:1px;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+.contenedor_mapa_arbol {
+	width:100%;
+	height:0px;
+	z-index: 103;
+	position: absolute;
+}
+.contenedor_mapa_detalle {
+	width:100%;
+	height:100px;
+	position: absolute;
+	margin-top: -105px;
+}
+
+.navegacion_mapa {
+	width:60px;
+	height:60px;
+	position:absolute;
+	float:left;
+	vertical-align:top;
+	top:20px;
+	bottom:10px;
+	left:10px;
+	right:10px;
+}
+
+.nav_mapa_espacio {
+	width:15px;
+	height:15px;
+	position:relative;
+	float:left;
+}
+
+.nav_mapa_arriba {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/organizacion/arriba_a.png);
+}
+
+.nav_mapa_arriba:hover,
+.nav_mapa_arriba:active,
+.nav_mapa_arriba:focus {
+	cursor:pointer;
+	background:url(../images/organizacion/arriba_b.png);
+}
+
+.nav_mapa_abajo {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/organizacion/abajo_a.png);
+}
+
+.nav_mapa_abajo:hover,
+.nav_mapa_abajo:active,
+.nav_mapa_abajo:focus {
+	cursor:pointer;
+	background:url(../images/organizacion/abajo_b.png);
+}
+
+.nav_mapa_izquierda {
+	width:15px;
+	height:30px;
+	position:relative;
+	float:left;
+	background:url(../images/organizacion/izquierda_a.png);
+}
+
+.nav_mapa_izquierda:hover,
+.nav_mapa_izquierda:active,
+.nav_mapa_izquierda:focus {
+	cursor:pointer;
+	background:url(../images/organizacion/izquierda_b.png);
+}
+
+.nav_mapa_derecha {
+	width:15px;
+	height:30px;
+	position:relative;
+	float:left;
+	background:url(../images/organizacion/derecha_a.png);
+}
+
+.nav_mapa_derecha:hover,
+.nav_mapa_derecha:active,
+.nav_mapa_derecha:focus {
+	cursor:pointer;
+	background:url(../images/organizacion/derecha_b.png);
+}
+
+.nav_mapa_zoom {
+	width:30px;
+	height:30px;
+	position:relative;
+	float:left;
+}
+
+.nav_mapa_aumenta {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/organizacion/aumenta_a.png);
+}
+
+.nav_mapa_aumenta:hover,
+.nav_mapa_aumenta:active,
+.nav_mapa_aumenta:focus {
+	cursor:pointer;
+	background:url(../images/organizacion/aumenta_b.png);
+}
+
+.nav_mapa_reduce {
+	width:30px;
+	height:15px;
+	position:relative;
+	float:left;
+	background:url(../images/organizacion/reduce_a.png);
+}
+
+.nav_mapa_reduce:hover,
+.nav_mapa_reduce:active,
+.nav_mapa_reduce:focus {
+	cursor:pointer;
+	background:url(../images/organizacion/reduce_b.png);
+}
+
+.btn_celular_mapa {
+	width:32px;
+	height:32px;
+	position:absolute;
+	float:left;
+	vertical-align:top;
+	top:35px;
+	bottom:10px;
+	left:72px;
+	right:10px;
+	background:url(../images/organizacion/vista_celular_a.png);
+}
+
+.btn_celular_mapa:hover,
+.btn_celular_mapa:focus,
+.btn_celular_mapa:active {
+	background:url(../images/organizacion/vista_celular_b.png);
+	cursor:pointer;
+}
+
+.btn_arbol_mapa {
+	width:66px;
+	height:24px;
+	position:absolute;
+	float:left;
+	vertical-align:top;
+	top:40px;
+	bottom:10px;
+	left:115px;
+	right:10px;
+	background:url(../images/organizacion/vista_arbol_a.png);
+}
+
+.btn_arbol_mapa:hover,
+.btn_arbol_mapa:focus,
+.btn_arbol_mapa:active {
+	background:url(../images/organizacion/vista_arbol_b.png);
+	cursor:pointer;
+}
+
+
+
+/*========================= CSS ARBOL ============================*/
+.nav_treex {
+    margin: 30px 0;
+    width: 19000px;
+    min-height: 400px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+ 
+}
+.nav_treex ul {
+    padding-top: 20px;
+    position: relative;
+    margin: 0px;
+    padding: px;
+}
+.nav_treex li {
+    float: left; 
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    padding: 20px 1px 0 1px;
+}
+.nav_treex li::before, .nav_treex li::after{
+    content: '';
+    position: absolute; 
+    top: 0; 
+    right: 50%;
+    border-top: 1px solid #555;
+    width: 50%; 
+    height: 20px;
+}
+.nav_treex li::after{
+    right: auto; 
+    left: 50%;
+    border-left: 1px solid #555;
+}
+.nav_treex li:only-child::after, .nav_treex li:only-child::before {
+    content: '';
+    display: none;
+}
+.nav_treex li:only-child{ padding-top: 0;}
+.nav_treex li:first-child::before, .nav_treex li:last-child::after{
+    border: 0 none;
+}
+.nav_treex li:last-child::before{
+    border-right: 1px solid #555;
+    -webkit-border-radius: 0 5px 0 0;
+       -moz-border-radius: 0 5px 0 0;
+            border-radius: 0 5px 0 0;
+}
+.nav_treex li:first-child::after{
+    -webkit-border-radius: 5px 0 0 0;
+       -moz-border-radius: 5px 0 0 0;
+            border-radius: 5px 0 0 0;
+}
+.nav_treex ul ul::before{
+    content: '';
+    position: absolute; top: 0; left: 50%;
+    border-left: 1px solid #555;
+    width: 0; height: 20px;
+}
+
+
+.nav_treex li .nivel_uno{
+	padding: 0 0 0 2px;
+	width:70px;
+	height:70px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 70px;
+    display: inline-block;
+    -webkit-border-radius: 30px;
+       -moz-border-radius: 30px;
+            border-radius: 30px;
+}
+
+.nav_treex li .nivel_dos{
+	cursor:pointer;
+    padding: 0 0 0 2px;
+	width:60px;
+	height:60px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 60px;
+    display: inline-block;
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+}
+
+.nav_treex li .nivel_tres{
+	cursor:pointer;
+    padding: 0 0 0 2px;
+	width:50px;
+	height:50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 50px;
+    display: inline-block;
+    -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+}
+
+.nav_treex li .nivel_cuatro{
+	cursor:pointer;
+    padding: 0 0 0 2px;
+	width:43px;
+	height:43px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 43px;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.nav_treex li .nivel_cinco{
+	cursor:pointer;
+    padding: 0 0 0 2px;
+	width:29px;
+	height:29px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 29px;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.nav_treex li .nivel_seis{
+	cursor:pointer;
+    padding: 0 0 0 2px;
+	width:22px;
+	height:22px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 22px;
+    display: inline-block;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
+.nav_treex li a:hover, .nav_treex li a:hover+ul li a {
+    color:none;
+}
+.nav_treex li a:hover+ul li::after, 
+.nav_treex li a:hover+ul li::before, 
+.nav_treex li a:hover+ul::before, 
+.nav_treex li a:hover+ul ul::before{
+    content: '';
+    border-color:  #555;
+}
+
+/*====================== END ARBOL CSS=======================*/
+
+/*====================== CLASES MONITOS CSS=======================*/
+.color_man{
+	color:#4a94fb;
+}
+
+.color_woman{
+	color:#d212ad;
+}
+
+.color_oro{
+	color:#f5f625;
+}
+
+.color_esi{
+	color:#e17b13;
+}
+
+.color_bronce{
+	color:#ece783;
+}
+
+.color_plata{
+	color:#d8d1d1;
+}
+
+.color_platino{
+	color:#d4d4d4;
+}
+
+.color_diamante{
+	color:#cae5e5;
+}
+
+.color_activo{
+	color:#35ac19;
+}
+
+.color_inactivo{
+	color:#ffbb04;
+}
+
+.color_suspendido{
+	color:#da4a38;
+}
+
+.color_transferible{
+	/*color:#;*/
+}
+
+.bcolor_proximo{
+	/*color:#;*/
+}
+
+.bcolor_man{
+	background-color:#4a94fb;
+}
+
+.bcolor_woman{
+	background-color:#d212ad;
+}
+
+.bcolor_oro{
+	background-color:#f5f625;
+}
+
+.bcolor_esi{
+	background-color:#e17b13;
+}
+
+.bcolor_bronce{
+	background-color:#ece783;
+}
+
+.bcolor_plata{
+	background-color:#d8d1d1;
+}
+
+.bcolor_platino{
+	background-color:#d4d4d4;
+}
+
+.bcolor_diamante{
+	background-color:#cae5e5;
+}
+
+
+/*====================== CLASES MONITOS CSS=======================*/
+
+/*====================== ARBOL CSS STYELE IMG=======================*/
+/*======================= CONTENEDOR ARBOR. ======================*/
+#view {
+cursor:move;
+  /*position: fixed;*/
+  margin-top:0px;
+  left: 0;
+  /*background-color: gray;*/
+  
+  height: 100%; /*450px;*/
+  width: 100%;/*1145px;*/
+  /*display: flex;*/
+  align-items: center;
+  justify-content: center;
+  overview: hidden;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  padding: 0px;
+}
+
+
+
+/*==============================POPOVER MODIFICAR TAMANIO===========================================*/
+
+.popover {
+width: 230px;
+}
+
+/*============================== ICONOS DEL PERSONAJE ===============================================*/
+.icono_infox{
+	font-size: 12px;
+	color:#fff;
+	background: #bcbcbc;
+	width:25px;
+	height:25px;
+	text-align:center;
+	padding:6px;
+	-webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+            border-radius: 15px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.icono_infox:HOVER {
+	background: #961255;
+}
+
+
+
+/*=====================================*/
+
+.dts_es{
+   position: relative;
+   width:200px;
+    left: 5px;
+    padding: 5px;
+    border-radius: 7px;
+    margin-top: -72px;
+	
+}

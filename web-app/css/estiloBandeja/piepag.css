@@ -1,0 +1,24 @@
+@CHARSET "ISO-8859-1";
+
+.estilo_piepagina {
+  background-image:url(../../images/institucional/barrainf_footer.png);
+  background-position:top;
+  background-repeat:no-repeat;
+  background-color: #640002;
+  height:108px;
+}
+
+.pie_pagina_vinculo {
+  color:#ffffff;
+}
+
+.pie_pagina_texto {
+  color:#ffffff;
+}
+
+
+.pie_pagina_imgredes {
+  margin-left: 3px;
+  margin-right: 3px;
+}
+

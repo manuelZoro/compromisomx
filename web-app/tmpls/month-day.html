@@ -1,0 +1,14 @@
+<div class="table-responsive tabla_buscador_1">
+<div class="cal-month-day <%= cls %>">
+	<span id="<%= data_day %>" class="pull-right" data-cal-date="<%= data_day %>" data-cal-view="day"><%= day %></span>
+	<% if (events.length > 0) { %>
+		<div class="events-list cal-hours" data-cal-start="<%= start %>" data-cal-end="<%= end %>">
+			<% _.each(events, function(event) { %>
+				<a href="javascript:detalles(<%= event.id %>);" data-event-id="<%= event.id %>" data-event-class="<%= event['class'] %>"
+					class="pull-left event <%= event['class'] %>" style="text-align:center; color:black !important;" data-toggle="tooltip"
+					title="<%= event.title %>"><strong><%= event.title %></strong></a>
+			<% }); %>
+		</div>
+	<% } %>
+</div>
+</div>
